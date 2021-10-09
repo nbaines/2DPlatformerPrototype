@@ -9,7 +9,7 @@ public class MainMenu : MonoBehaviour
     //Use: Changes the current scene to the next scene (based on index)
     public void gameStart()
     {
-        Debug.Log("Play btn pressed.");
+        Debug.Log("Play button pressed. Starting game.");
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
@@ -17,7 +17,7 @@ public class MainMenu : MonoBehaviour
     //Use: Exits the application
     public void gameQuit()
     {
-        Debug.Log("Quit btn pressed.");
+        Debug.Log("Quit button pressed. Exiting game.");
         Application.Quit();
     }
 }
