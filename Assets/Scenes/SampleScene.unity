@@ -403,7 +403,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 180153242}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.0940003, y: 0.958, z: -10}
+  m_LocalPosition: {x: -2.0000002, y: 1, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1625053505}
@@ -1046,7 +1046,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.0940003, y: 0.958, z: -10}
+  m_LocalPosition: {x: -2.0000002, y: 1, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1063,9 +1063,9 @@ GameObject:
   - component: {fileID: 636517062}
   - component: {fileID: 636517061}
   - component: {fileID: 636517060}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: swampTile1 (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1169,9 +1169,9 @@ GameObject:
   - component: {fileID: 687746985}
   - component: {fileID: 687746984}
   - component: {fileID: 687746983}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: swampTile1 (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1274,13 +1274,14 @@ GameObject:
   m_Component:
   - component: {fileID: 691962096}
   - component: {fileID: 691962095}
-  - component: {fileID: 691962094}
   - component: {fileID: 691962093}
   - component: {fileID: 691962097}
+  - component: {fileID: 691962094}
+  - component: {fileID: 691962099}
   - component: {fileID: 691962098}
   m_Layer: 0
   m_Name: Triangle
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1300,7 +1301,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 5
+  m_GravityScale: 1
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -1318,12 +1319,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26786a23795b3d34cbe47ed986ef6d61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
-  XTransform: {fileID: 0}
-  YTransform: {fileID: 0}
-  currentX: {x: 0, y: 0}
-  currentY: {x: 0, y: 0}
-  rigidbody: {fileID: 0}
+  stats: {fileID: 691962099}
+  rigidbody: {fileID: 691962093}
+  groundLayer:
+    m_Bits: 256
 --- !u!212 &691962095
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1380,7 +1379,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 691962092}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.094, y: 0.958, z: 0}
+  m_LocalPosition: {x: -2, y: 1, z: 0}
   m_LocalScale: {x: 0.77711976, y: 0.75, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1429,6 +1428,20 @@ MonoBehaviour:
   maxHealth: 50
   currHealth: 0
   HPBar: {fileID: 433908102}
+--- !u!114 &691962099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 691962092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7018b0e17753cf74cb77cedc750a665d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 5
+  jumpHeight: {x: 0, y: 5}
 --- !u!1 &856383709
 GameObject:
   m_ObjectHideFlags: 0
@@ -1697,9 +1710,9 @@ GameObject:
   - component: {fileID: 1136401934}
   - component: {fileID: 1136401933}
   - component: {fileID: 1136401935}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Square (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2068,9 +2081,9 @@ GameObject:
   - component: {fileID: 1331646676}
   - component: {fileID: 1331646675}
   - component: {fileID: 1331646677}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Square (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2174,9 +2187,9 @@ GameObject:
   - component: {fileID: 1463252251}
   - component: {fileID: 1463252250}
   - component: {fileID: 1463252252}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Square (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2639,9 +2652,9 @@ GameObject:
   - component: {fileID: 1863500574}
   - component: {fileID: 1863500573}
   - component: {fileID: 1863500572}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Square (5)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2745,9 +2758,9 @@ GameObject:
   - component: {fileID: 1934050141}
   - component: {fileID: 1934050140}
   - component: {fileID: 1934050142}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Square
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2851,9 +2864,9 @@ GameObject:
   - component: {fileID: 1938651046}
   - component: {fileID: 1938651045}
   - component: {fileID: 1938651047}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: swampTile1
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3240,9 +3253,9 @@ GameObject:
   - component: {fileID: 2083359830}
   - component: {fileID: 2083359829}
   - component: {fileID: 2083359831}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Square (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
