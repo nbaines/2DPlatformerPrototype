@@ -7,6 +7,7 @@ public class PlayerHealth : MonoBehaviour
     public int maxHealth = 50;
     public int currHealth;
     public UIHealthBar HPBar;
+    public DeathMenu deathMenu;
 
     // Start is called before the first frame update
     void Start()
@@ -24,8 +25,12 @@ public class PlayerHealth : MonoBehaviour
         }
     }
 
-    void modifyHealth(int healthMod) {
+    public void modifyHealth(int healthMod) {
         currHealth = currHealth + healthMod;
         HPBar.SetHealth(currHealth);
+
+        if (currHealth <= 0) {
+            deathMenu.gamePause();
+        }
     }
 }
