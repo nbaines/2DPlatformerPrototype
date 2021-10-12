@@ -24,6 +24,15 @@ public class PlayerController : MonoBehaviour
         {
             this.transform.position = new Vector3(-2.0f, 1.0f, 0f);
         }
+
+        if (rigidbody.velocity.y < 0)
+        {
+            animator.SetBool("isFalling", true);
+        }
+        else
+        {
+            animator.SetBool("isFalling", false);
+        }
     }
 
     //this function will break if there's no playerstats script attached to the same object as this
@@ -72,6 +81,15 @@ public class PlayerController : MonoBehaviour
             {
                 rigidbody.AddForce(stats.JumpHeight, ForceMode2D.Impulse);
             }
+        }
+
+        if (rigidbody.velocity.y > 0)
+        {
+            animator.SetBool("isJumping", true);
+        }
+        else
+        {
+            animator.SetBool("isJumping", false);
         }
     }
 
