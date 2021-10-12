@@ -32,13 +32,11 @@ public class PlayerHealth : MonoBehaviour
         if (isInvincible == true)
         {
             invincibleTimer -= Time.deltaTime;
-            Debug.Log("Timer Active");
             
             //Disable Timer
             if (invincibleTimer < 0)
             {
                 isInvincible = false;
-                Debug.Log("Timer Disabled");
             }
         }
     }
@@ -56,10 +54,9 @@ public class PlayerHealth : MonoBehaviour
             //Enable Invincibility Timer after taking damage
             isInvincible = true;
             invincibleTimer = timeInvincible;
-            Debug.Log("Timer Enabled");
         }
 
-        currHealth = currHealth + healthMod;
+        currHealth = Mathf.Clamp(currHealth + healthMod, 0, maxHealth);
         HPBar.SetHealth(currHealth);
 
         if (currHealth <= 0) 
