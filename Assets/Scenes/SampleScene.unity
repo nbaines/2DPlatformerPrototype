@@ -671,7 +671,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.8433735, y: 1}
+    m_SensorSize: {x: 2.1488764, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -2072,7 +2072,7 @@ Tilemap:
   - first: {x: 51, y: -3, z: 0}
     second:
       m_TileIndex: 3
-      m_TileSpriteIndex: 5
+      m_TileSpriteIndex: 41
       m_TileMatrixIndex: 0
       m_TileColorIndex: 2
       m_ObjectToInstantiate: {fileID: 0}
@@ -2256,8 +2256,8 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 4
     m_Data: {fileID: 21300004, guid: 96b9ff78eeae62f4e8240056086c4a5f, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: 21300006, guid: 96b9ff78eeae62f4e8240056086c4a5f, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
   - m_RefCount: 14
@@ -2328,8 +2328,8 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: 21300006, guid: 96b9ff78eeae62f4e8240056086c4a5f, type: 3}
   m_TileMatrixArray:
   - m_RefCount: 19
     m_Data:
@@ -5813,21 +5813,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 3449804943190752823, guid: b06dfbc78ad706c438fc14c77e44f92f,
-        type: 3}
-      propertyPath: m_Color.r
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3449804943190752823, guid: b06dfbc78ad706c438fc14c77e44f92f,
-        type: 3}
-      propertyPath: m_Color.g
-      value: 0.6568682
-      objectReference: {fileID: 0}
-    - target: {fileID: 3449804943190752823, guid: b06dfbc78ad706c438fc14c77e44f92f,
-        type: 3}
-      propertyPath: m_Color.b
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b06dfbc78ad706c438fc14c77e44f92f, type: 3}

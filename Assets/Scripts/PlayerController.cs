@@ -8,6 +8,12 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private new Rigidbody2D rigidbody; //these are assigned in inspector
 
     public LayerMask groundLayer;   //used in the isgrounded function
+    private Animator animator; //used for sprite animations
+
+    // Start is called before the first frame update
+    void Start() {
+        animator = GetComponent<Animator>();
+    }
 
     // Update is called once per frame
     void Update()
@@ -25,7 +31,30 @@ public class PlayerController : MonoBehaviour
     //this function is called from update, and handles left right movement of the player using the horizontal inputs of the player.
     void Movement()
     {
-        float xInput = Input.GetAxis("Horizontal");
+        float xInput = Input.GetAxis("Horizontal"); //momentum move (gradual key press)
+        ////float xInput = Input.GetAxisRaw("Horizontal"); //non-momentum move (binary key press)
+
+
+        //Handle idle/move animations
+        ////Debug.Log("input x: " + xInput.ToString());
+        if (xInput != 0) //if not moving, keep previous animation loop
+        {
+            if (xInput < 0)
+            {
+                animator.SetFloat("moveX", -1);
+            }
+            else {
+                animator.SetFloat("moveX", 1);
+            }
+
+            //animator.SetFloat("moveX", xInput);
+            animator.SetBool("isMoving", true);
+        }
+        else
+        {
+            animator.SetBool("isMoving", false);
+        }
+
         Vector2 speed = new Vector2(xInput, 0f) * stats.MoveSpeed * Time.deltaTime;
 
         this.transform.Translate(speed);
@@ -57,7 +86,7 @@ public class PlayerController : MonoBehaviour
     bool isGrounded()
     {
         Vector2 currentPos = this.transform.position;
-        float distance = 0.25f;  //this value has to be tweaked so that players can't jump again while they're in the air but close to the ground.
+        float distance = 0.50f;  //this value has to be tweaked so that players can't jump again while they're in the air but close to the ground.
                                 //0.25f seems to be the sweet spot, but this may change when we put in a new sprite for the player.
         RaycastHit2D hit = Physics2D.Raycast(currentPos, Vector2.down, distance, groundLayer);
         if (hit.collider != null)

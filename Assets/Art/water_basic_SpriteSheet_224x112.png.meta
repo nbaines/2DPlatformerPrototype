@@ -1,0 +1,3718 @@
+fileFormatVersion: 2
+guid: 95628f8ae1557af419cef467e3ca649e
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: player_idle0
+    21300002: player_idle1
+    21300004: player_idle2
+    21300006: player_idle3
+    21300008: player_idle4
+    21300010: player_idle5
+    21300012: player_idle6
+    21300014: player_idle7
+    21300016: player_walk0
+    21300018: player_walk1
+    21300020: player_walk2
+    21300022: player_walk3
+    21300024: player_walk4
+    21300026: player_walk5
+    21300028: player_walk6
+    21300030: player_walk7
+    21300032: player_walk8
+    21300034: player_walk9
+    21300036: water_basic_SpriteSheet_224x112_18
+    21300038: water_basic_SpriteSheet_224x112_19
+    21300040: water_basic_SpriteSheet_224x112_20
+    21300042: water_basic_SpriteSheet_224x112_21
+    21300044: water_basic_SpriteSheet_224x112_22
+    21300046: water_basic_SpriteSheet_224x112_23
+    21300048: water_basic_SpriteSheet_224x112_24
+    21300050: water_basic_SpriteSheet_224x112_25
+    21300052: water_basic_SpriteSheet_224x112_26
+    21300054: water_basic_SpriteSheet_224x112_27
+    21300056: water_basic_SpriteSheet_224x112_28
+    21300058: water_basic_SpriteSheet_224x112_29
+    21300060: water_basic_SpriteSheet_224x112_30
+    21300062: water_basic_SpriteSheet_224x112_31
+    21300064: water_basic_SpriteSheet_224x112_32
+    21300066: water_basic_SpriteSheet_224x112_33
+    21300068: water_basic_SpriteSheet_224x112_34
+    21300070: water_basic_SpriteSheet_224x112_35
+    21300072: water_basic_SpriteSheet_224x112_36
+    21300074: water_basic_SpriteSheet_224x112_37
+    21300076: water_basic_SpriteSheet_224x112_38
+    21300078: water_basic_SpriteSheet_224x112_39
+    21300080: water_basic_SpriteSheet_224x112_40
+    21300082: water_basic_SpriteSheet_224x112_41
+    21300084: water_basic_SpriteSheet_224x112_42
+    21300086: water_basic_SpriteSheet_224x112_43
+    21300088: water_basic_SpriteSheet_224x112_44
+    21300090: water_basic_SpriteSheet_224x112_45
+    21300092: water_basic_SpriteSheet_224x112_46
+    21300094: water_basic_SpriteSheet_224x112_47
+    21300096: water_basic_SpriteSheet_224x112_48
+    21300098: water_basic_SpriteSheet_224x112_49
+    21300100: water_basic_SpriteSheet_224x112_50
+    21300102: water_basic_SpriteSheet_224x112_51
+    21300104: water_basic_SpriteSheet_224x112_52
+    21300106: water_basic_SpriteSheet_224x112_53
+    21300108: water_basic_SpriteSheet_224x112_54
+    21300110: water_basic_SpriteSheet_224x112_55
+    21300112: water_basic_SpriteSheet_224x112_56
+    21300114: water_basic_SpriteSheet_224x112_57
+    21300116: water_basic_SpriteSheet_224x112_58
+    21300118: water_basic_SpriteSheet_224x112_59
+    21300120: water_basic_SpriteSheet_224x112_60
+    21300122: water_basic_SpriteSheet_224x112_61
+    21300124: water_basic_SpriteSheet_224x112_62
+    21300126: water_basic_SpriteSheet_224x112_63
+    21300128: water_basic_SpriteSheet_224x112_64
+    21300130: water_basic_SpriteSheet_224x112_65
+    21300132: water_basic_SpriteSheet_224x112_66
+    21300134: water_basic_SpriteSheet_224x112_67
+    21300136: water_basic_SpriteSheet_224x112_68
+    21300138: water_basic_SpriteSheet_224x112_69
+    21300140: water_basic_SpriteSheet_224x112_70
+    21300142: water_basic_SpriteSheet_224x112_71
+    21300144: water_basic_SpriteSheet_224x112_72
+    21300146: water_basic_SpriteSheet_224x112_73
+    21300148: water_basic_SpriteSheet_224x112_74
+    21300150: water_basic_SpriteSheet_224x112_75
+    21300152: water_basic_SpriteSheet_224x112_76
+    21300154: water_basic_SpriteSheet_224x112_77
+    21300156: water_basic_SpriteSheet_224x112_78
+    21300158: water_basic_SpriteSheet_224x112_79
+    21300160: water_basic_SpriteSheet_224x112_80
+    21300162: water_basic_SpriteSheet_224x112_81
+    21300164: water_basic_SpriteSheet_224x112_82
+    21300166: water_basic_SpriteSheet_224x112_83
+    21300168: water_basic_SpriteSheet_224x112_84
+    21300170: water_basic_SpriteSheet_224x112_85
+    21300172: water_basic_SpriteSheet_224x112_86
+    21300174: water_basic_SpriteSheet_224x112_87
+    21300176: water_basic_SpriteSheet_224x112_88
+    21300178: water_basic_SpriteSheet_224x112_89
+    21300180: water_basic_SpriteSheet_224x112_90
+    21300182: water_basic_SpriteSheet_224x112_91
+    21300184: water_basic_SpriteSheet_224x112_92
+    21300186: water_basic_SpriteSheet_224x112_93
+    21300188: water_basic_SpriteSheet_224x112_94
+    21300190: water_basic_SpriteSheet_224x112_95
+    21300192: water_basic_SpriteSheet_224x112_96
+    21300194: water_basic_SpriteSheet_224x112_97
+    21300196: water_basic_SpriteSheet_224x112_98
+    21300198: water_basic_SpriteSheet_224x112_99
+    21300200: water_basic_SpriteSheet_224x112_100
+    21300202: water_basic_SpriteSheet_224x112_101
+    21300204: water_basic_SpriteSheet_224x112_102
+    21300206: water_basic_SpriteSheet_224x112_103
+    21300208: water_basic_SpriteSheet_224x112_104
+    21300210: water_basic_SpriteSheet_224x112_105
+    21300212: water_basic_SpriteSheet_224x112_106
+    21300214: water_basic_SpriteSheet_224x112_107
+    21300216: water_basic_SpriteSheet_224x112_108
+    21300218: water_basic_SpriteSheet_224x112_109
+    21300220: water_basic_SpriteSheet_224x112_110
+    21300222: water_basic_SpriteSheet_224x112_111
+    21300224: water_basic_SpriteSheet_224x112_112
+    21300226: water_basic_SpriteSheet_224x112_113
+    21300228: water_basic_SpriteSheet_224x112_114
+    21300230: water_basic_SpriteSheet_224x112_115
+    21300232: water_basic_SpriteSheet_224x112_116
+    21300234: water_basic_SpriteSheet_224x112_117
+    21300236: water_basic_SpriteSheet_224x112_118
+    21300238: water_basic_SpriteSheet_224x112_119
+    21300240: water_basic_SpriteSheet_224x112_120
+    21300242: water_basic_SpriteSheet_224x112_121
+    21300244: water_basic_SpriteSheet_224x112_122
+    21300246: water_basic_SpriteSheet_224x112_123
+    21300248: water_basic_SpriteSheet_224x112_124
+    21300250: water_basic_SpriteSheet_224x112_125
+    21300252: water_basic_SpriteSheet_224x112_126
+    21300254: water_basic_SpriteSheet_224x112_127
+    21300256: water_basic_SpriteSheet_224x112_128
+    21300258: water_basic_SpriteSheet_224x112_129
+    21300260: water_basic_SpriteSheet_224x112_130
+    21300262: water_basic_SpriteSheet_224x112_131
+    21300264: water_basic_SpriteSheet_224x112_132
+    21300266: water_basic_SpriteSheet_224x112_133
+    21300268: water_basic_SpriteSheet_224x112_134
+    21300270: water_basic_SpriteSheet_224x112_135
+    21300272: water_basic_SpriteSheet_224x112_136
+    21300274: water_basic_SpriteSheet_224x112_137
+    21300276: water_basic_SpriteSheet_224x112_138
+    21300278: water_basic_SpriteSheet_224x112_139
+    21300280: water_basic_SpriteSheet_224x112_140
+    21300282: water_basic_SpriteSheet_224x112_141
+    21300284: water_basic_SpriteSheet_224x112_142
+    21300286: water_basic_SpriteSheet_224x112_143
+    21300288: water_basic_SpriteSheet_224x112_144
+    21300290: water_basic_SpriteSheet_224x112_145
+    21300292: water_basic_SpriteSheet_224x112_146
+    21300294: water_basic_SpriteSheet_224x112_147
+    21300296: water_basic_SpriteSheet_224x112_148
+    21300298: water_basic_SpriteSheet_224x112_149
+    21300300: water_basic_SpriteSheet_224x112_150
+    21300302: water_basic_SpriteSheet_224x112_151
+    21300304: water_basic_SpriteSheet_224x112_152
+    21300306: water_basic_SpriteSheet_224x112_153
+    21300308: water_basic_SpriteSheet_224x112_154
+    21300310: water_basic_SpriteSheet_224x112_155
+    21300312: water_basic_SpriteSheet_224x112_156
+    21300314: water_basic_SpriteSheet_224x112_157
+    21300316: water_basic_SpriteSheet_224x112_158
+    21300318: water_basic_SpriteSheet_224x112_159
+    21300320: water_basic_SpriteSheet_224x112_160
+    21300322: water_basic_SpriteSheet_224x112_161
+    21300324: water_basic_SpriteSheet_224x112_162
+    21300326: water_basic_SpriteSheet_224x112_163
+    21300328: water_basic_SpriteSheet_224x112_164
+    21300330: water_basic_SpriteSheet_224x112_165
+    21300332: water_basic_SpriteSheet_224x112_166
+    21300334: water_basic_SpriteSheet_224x112_167
+    21300336: water_basic_SpriteSheet_224x112_168
+    21300338: water_basic_SpriteSheet_224x112_169
+    21300340: water_basic_SpriteSheet_224x112_170
+    21300342: water_basic_SpriteSheet_224x112_171
+    21300344: player_idle0
+    21300346: player_idle1
+    21300348: player_idle2
+    21300350: player_idle3
+    21300352: player_idle4
+    21300354: player_idle5
+    21300356: player_idle6
+    21300358: player_idle7
+    21300360: player_walk0
+    21300362: player_walk1
+    21300364: player_walk2
+    21300366: player_walk3
+    21300368: player_walk4
+    21300370: player_walk5
+    21300372: player_walk6
+    21300374: player_walk7
+    21300376: player_walk8
+    21300378: player_walk9
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 25
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: player_idle0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1456
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b53888321089de941a20311217083ad9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_idle1
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1456
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3313235ec44aad643b6cc70b66449780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_idle2
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1456
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 109d2948343443d42b228abab363d2c4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_idle3
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 1456
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09565a01b83fb89418492f155ad1b081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_idle4
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1456
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68cea576f4b3e924d8f5c4b82d99521f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_idle5
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1456
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b2f393343f7b8e41b9cb5c36ed9603b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_idle6
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 1456
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5b6a32607624614da5a24af798a59ab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_idle7
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 1456
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c2a81595ea8e1543a276a824bd64b3d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_walk0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1344
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b9675f1713e08548b51efd4736c4ff3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_walk1
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1344
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0bb9424ee2521e458369241a09b178f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_walk2
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1344
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7de943311c5bf8438d98a24ad800b25
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_walk3
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 1344
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3b1d765af23aed4ab2f0e5b11c880ae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_walk4
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1344
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aa6f933ff44ac5498aae3edde1c1a9b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_walk5
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1344
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36a1f5bd1ec34a44d85eb5d611cbe33c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_walk6
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 1344
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2334f638e0f91d24589b4850833c7e3a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_walk7
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 1344
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 232d2418a37c6c3428a6851d03258c76
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_walk8
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1344
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14747051bc74a8d408d12245e5595cb2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_walk9
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 1344
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24258642d8a8f3c45859668e4ea34df9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1232
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8258bd32cdc8994a92a4359ed9e6056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_19
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1232
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0728d5ce25fa34048b518df1e4b4eade
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_20
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1232
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa64277b97284974e94c05b86995db85
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_21
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 1232
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c4600651ed8dd14c9a027a28a2adbf7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_22
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1232
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa8355b90c893a94b9dc7a262a8fc3af
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_23
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1232
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ac4402a36d898349938b60d100e2b5d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_24
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 1232
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8dd57112ad5b3644a39babb650b4ddc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_25
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 1232
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2cd99c6d0f69e1488f5d6523d60222d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1120
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c5fce0daae67e34289c0624f726f6b2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_27
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1120
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7f666f44b4c28641bf2cd14080fda25
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_28
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1120
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7edb5b5628d17c4ab836bc02d446f1d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1008
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ffda8f2d125d8543a76c6054768a9fb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_30
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1008
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc02437d92ddb0446b07db6e0c7ff4bf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_31
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1008
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dab5c221b532a9439d910fb2aca0140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5a5105ce5c18574da184c5c1526f9a5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_33
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 896
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30a450b5deacdc94482f05476767f4fd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_34
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 896
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a56a226506a950f4cab19bcc6edc8043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_35
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 896
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47aa6eaad96949a4d88c5b813487b1a6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_36
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 896
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21b3587166868384eb306efd8f45ed22
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_37
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 896
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14c284a34ea249448a97637f2de2ec8a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_38
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 784
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99adff62b765cc244942e53d34e6fe7f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_39
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 784
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52e7810f120bf3c49995ffb14e8a5efe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_40
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 784
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4d6b3328b84d5447a8e01b2eb8fdfb1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_41
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 784
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 825c01012762bd047ad71336ecc2303d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_42
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 784
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75b0de813809ad7469360b425a646b9e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_43
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 784
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71b55f3b85dd6864a858861bc81e0ec6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_44
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 784
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a750430df482006469973d944da2d618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 672
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7e00e951bd406347a528e44ecb1215d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_46
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 672
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7516445cff997d743bb6eec652d16e7d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_47
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 672
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f364c658aacbe5b4a8db41bfdb2e70b5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_48
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 672
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec8f6f6693e5c4b488541bcc6b69e8bf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_49
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 672
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0226768105985e4d80771b5f3b0794a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_50
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 672
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6367a36fb18dba4ba11c7cefb6285bc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_51
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 672
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bd9b1fa19af74840bac267030a3c48c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_52
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 672
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e054ab1b0217774b95d9ab07fc8669b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_53
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 672
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85ecf58355d87c440894f4bc979fd85a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_54
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 672
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42df3c3d3d4c1fb4a9eee18d9e6cda54
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_55
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 672
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a34f9992843f83c4aa35726d001faf6a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_56
+      rect:
+        serializedVersion: 2
+        x: 2464
+        y: 672
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74ea590e543c0fe439e823193cfb05d0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_57
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 672
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e5136a366458304d9d462ca6bcb2797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_58
+      rect:
+        serializedVersion: 2
+        x: 2912
+        y: 672
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f39fb74188c6d8247b005cf7b6566fc7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_59
+      rect:
+        serializedVersion: 2
+        x: 3136
+        y: 672
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0410e458cc3e0244da19cebb668f3293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_60
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 672
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c919d08470e72704bacec83ac123c17f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_61
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 672
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0cec50359385ae4cbcd8605ea030030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_62
+      rect:
+        serializedVersion: 2
+        x: 3808
+        y: 672
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 452ef21d0f1f4c84abbf93d39affd671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_63
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 672
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21532e61806f5a44b8f691f8b6d1883e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_64
+      rect:
+        serializedVersion: 2
+        x: 4256
+        y: 672
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed48d8c557ffe4f41a7c1a36611464d2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_65
+      rect:
+        serializedVersion: 2
+        x: 4480
+        y: 672
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1942d937c522a004fbe6efb34bf4cd96
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 560
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6144db1cf099b50419559f237542ba0a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_67
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 560
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 292830deecc6deb44a0cc48cabfa2f1a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_68
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 560
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90429377fcfcffa4eb54c10ae8ddb2c5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_69
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 560
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dc7272664c4efd4c817b3e1591c8ac3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_70
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 560
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e677d154e430174e8843ffe963d59a7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_71
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 560
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ee81657a6ae1da47ae304cbf4235f1f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_72
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 560
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc2f9c0c0543ff04b8655a941780ce84
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_73
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 560
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1057f713d10d4ab4d8ebf7f54e9d124a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_74
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 560
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8731558d4b72b5f45a530fc9dabc2d9f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_75
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 560
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14d6af90d86cc7744b5ba416db6af7b7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_76
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 560
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8e7d6b007553a34ebab9a470257c8f0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_77
+      rect:
+        serializedVersion: 2
+        x: 2464
+        y: 560
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 223c7a1599c83454abd42ee29e9c7591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_78
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 560
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e06e9a8bf13b9ba4082018cc79e2d576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_79
+      rect:
+        serializedVersion: 2
+        x: 2912
+        y: 560
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 585b74970d892194f812cdd51bd22cf3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_80
+      rect:
+        serializedVersion: 2
+        x: 3136
+        y: 560
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea28b86c26f8bed4bb8a01a7078d011f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_81
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 560
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c46a19852ccfbc74fbd111fd4393ccd0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_82
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 560
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6abb476ea1e8f274fb4aa56c5eef3c6a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_83
+      rect:
+        serializedVersion: 2
+        x: 3808
+        y: 560
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37bb9e71a4bf870499aa389f0f6a4c04
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_84
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 560
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a9a58f482484844481c1305e9774994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_85
+      rect:
+        serializedVersion: 2
+        x: 4256
+        y: 560
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a524ad80fcfbef94f911318fbf5dde44
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_86
+      rect:
+        serializedVersion: 2
+        x: 4480
+        y: 560
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8ea9fed36c1c684cb1e61dc2f1811d5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_87
+      rect:
+        serializedVersion: 2
+        x: 4704
+        y: 560
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0ab013a663897d418071a9c09833ca5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_88
+      rect:
+        serializedVersion: 2
+        x: 4928
+        y: 560
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68852a38c0b5e9344bafb170a0dbb597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_89
+      rect:
+        serializedVersion: 2
+        x: 5152
+        y: 560
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c756fb3199f000e478515a74600a87b6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_90
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 560
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 166ea67b98c9d65409e202cda1eae12a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_91
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 560
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28a9c5ba2e351d0468f0f64d8f213694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_92
+      rect:
+        serializedVersion: 2
+        x: 5824
+        y: 560
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56f2bedbbcd82d9488a4f1a6d4e360dd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_93
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f397abb571cf1ae47ab668f25c0b2eaf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_94
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 448
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1910991ac1e232a4aa046af5920435eb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_95
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 448
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a3d1e45b3c0a2044afddc35a36afd28
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_96
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 448
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad38bba93ef28654eb225a46a7621b4d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_97
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 448
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a10d5794820428b4a866b97f994baeb9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_98
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 448
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09a38143fd1292847b80c9804618dc7e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_99
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 448
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ba9c0b805a7310429b22648763457e9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_100
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 448
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fbe0885e95ed3743a4e668e58682657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_101
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 448
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22e57dfd7bcc2d54291418e86c8cce12
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_102
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 448
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5be8a5deec459247a8c7c38a7ecaed6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_103
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 448
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7799c93222ca8574bac5cfbc234ce016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_104
+      rect:
+        serializedVersion: 2
+        x: 2464
+        y: 448
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98d8f2c35fa86fa4086fecdd8b3ceecc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_105
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 448
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2653365fe49108947842c30b31a3bf50
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_106
+      rect:
+        serializedVersion: 2
+        x: 2912
+        y: 448
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dfef3543b1630a439f96aa04faef44f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_107
+      rect:
+        serializedVersion: 2
+        x: 3136
+        y: 448
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7352644149f8a064787f61759d6bb5cd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_108
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 448
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 099ebfe50f01c614c93791aa899338e3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_109
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 448
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 895e0a4edf8c4e94b9cc75496ea58b3f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_110
+      rect:
+        serializedVersion: 2
+        x: 3808
+        y: 448
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8306cf899cc5c574da1b3bb7b666cceb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_111
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 448
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de16d692bac136b41aa316f4c91409e4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_112
+      rect:
+        serializedVersion: 2
+        x: 4256
+        y: 448
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afa07358063f082479eca5200e5d2096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_113
+      rect:
+        serializedVersion: 2
+        x: 4480
+        y: 448
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4e797c530a06ff498a743136c8d686b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_114
+      rect:
+        serializedVersion: 2
+        x: 4704
+        y: 448
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da701c0aaca3cc94f8bcfa0f13fcca18
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_115
+      rect:
+        serializedVersion: 2
+        x: 4928
+        y: 448
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f9cffea5ee7ed94c99a15db1e00984d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_116
+      rect:
+        serializedVersion: 2
+        x: 5152
+        y: 448
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17bf233212a62bb45a8c8dc5a87d3ab7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_117
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 448
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e807eb7561ea7c47ad1acbc893d01fa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_118
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 448
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1fcb71a6d13196449f30439278d0008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_119
+      rect:
+        serializedVersion: 2
+        x: 5824
+        y: 448
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2c81775551ee3946a363e6b3bb839db
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_120
+      rect:
+        serializedVersion: 2
+        x: 6048
+        y: 448
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41be28e5fefdb414298afa009457a7c9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_121
+      rect:
+        serializedVersion: 2
+        x: 6272
+        y: 448
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84054d50f4a62194d818ed638d98707a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_122
+      rect:
+        serializedVersion: 2
+        x: 6496
+        y: 448
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f4c1402299bbe447ab19f0294df7b24
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_123
+      rect:
+        serializedVersion: 2
+        x: 6720
+        y: 448
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e33d7f7376f034a4d821e6ba912d6531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_124
+      rect:
+        serializedVersion: 2
+        x: 6944
+        y: 448
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b47bfded321c917419c0ce36546396a3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_125
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 336
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f910ec13b0b3c846a5a350e9dbf22ba
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_126
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 336
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 779e99312568d6448ad41fcf0f0af8ba
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_127
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 336
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 658e52ac4d2e88f478cafb8d1793d53c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_128
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 336
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6692979bb6c2e649a9cc789857f3e47
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_129
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 336
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 211d9581ec3672448a47893c079d86ed
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_130
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 336
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e5f9f5d5cbf95b4fbe0417cb21eefe8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_131
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 336
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ede77fb68d58b3f459c2444f2da521ed
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_132
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 336
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96802dbe86081e643a8f68887e1a7abc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_133
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 336
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d2b2a604979fc945881c2f84897ca80
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_134
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 336
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31d1d4ab54653f94583d308220464af5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_135
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 336
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc9206e9087ee4d44a14face2dbb6c2d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_136
+      rect:
+        serializedVersion: 2
+        x: 2464
+        y: 336
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e45d5fe8145f344aa34952cc270e7b7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_137
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b524c65a1e8537a499731c4802789739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_138
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 224
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aa4284da9fa7b24db68a81647882cba
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_139
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 224
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eadd9fea416f0a644a60906814cb9c7a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_140
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 224
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9c8c548de96baf47bd0177cf457e23b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_141
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 224
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b3ea3de138a38a43968a5dd3a23db20
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_142
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 224
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cc989a9b4509824392f74a05e79f98f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_143
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 224
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d48f292d28ccfd54b8d2279b141ce2cc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_144
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 224
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0066483950492934c89dc03c941c6ba6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_145
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 224
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e83a86f91538fe48b02d061836c5601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_146
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 224
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f94f2e3a7abbeb94991c1fcee0b087f0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_147
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 224
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e38da12607f900541adc646b66ada982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_148
+      rect:
+        serializedVersion: 2
+        x: 2464
+        y: 224
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdd1dbaff03ac1541a31404e54612660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_149
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1973ef555c8b2349aa9a7b95e14116d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_150
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 112
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee8931ed615d9494fbcf07793a1f5324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_151
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 112
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b85119ced00f9274293b21fadd5a1475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_152
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 112
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67178f31682c9ed4fbc135cf01f3f95e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_153
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 112
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4ea0fb37a0153a449c80debf92bd6a1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_154
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 112
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e4030db39c4c7942b904f2625c6766d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_155
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 112
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8ebf37548ea50d4abbd95c892697ce7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_156
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1d220b9f9a6702428dbc2d9b51a8c67
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_157
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0456904a2f9fd32418e3e3972a01432f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_158
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6f1773b7de49f14ca5564ac674e34bc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_159
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 0
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cb0e183c5fdf654eae7518aafdb862f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_160
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d1c8f3fd348c764a8c83f461f7f7a58
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_161
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 0
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 723908a60c6d3494487a242c93307587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_162
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 0
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 248b0281a2bfbb448bad89f0c809fafa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_163
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 0
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ac21022afb527647920461ace15ce1a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_164
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9c4f974074ba364bbf3e6ccebd0c33d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_165
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 0
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47db53efad8ba5742b6476805a0fd0ca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_166
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 0
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 406e54bb73c42af48a43eb72c5842f7d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_167
+      rect:
+        serializedVersion: 2
+        x: 2464
+        y: 0
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c987df1431217647a2aa3aff6cb1ba4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_168
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 0
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eea78e96216b4fc4da53b1839a4af6e7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_169
+      rect:
+        serializedVersion: 2
+        x: 2912
+        y: 0
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a86fe2a7278b88c4b9b7580a010253a4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_170
+      rect:
+        serializedVersion: 2
+        x: 3136
+        y: 0
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66bea6a8cde6cf84fb8886920465e3a9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_basic_SpriteSheet_224x112_171
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 0
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2eb7a2c4420b2942b6638398028a0ec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: ec57fc631ecddb544bdbdba9790a832c
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
