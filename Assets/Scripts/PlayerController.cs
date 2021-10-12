@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviour
 
     public LayerMask groundLayer;   //used in the isgrounded function
     private Animator animator; //used for sprite animations
+    private bool currAttacking = false;
 
     // Start is called before the first frame update
     void Start() {
@@ -20,6 +21,7 @@ public class PlayerController : MonoBehaviour
     {
         Movement();
         Jumper();
+        Attack();
         if (Input.GetKeyDown(KeyCode.LeftAlt))  //DEBUG: lets you reset player position if you fall off of the map here.
         {
             this.transform.position = new Vector3(-2.0f, 1.0f, 0f);
@@ -111,5 +113,25 @@ public class PlayerController : MonoBehaviour
             return true;
         else
             return false;
+    }
+
+
+    void Attack()
+    {
+        if (!currAttacking && Input.GetKeyDown(KeyCode.RightControl))
+        {
+            StartCoroutine(AttackCoroutine());
+        }
+    }
+
+    private IEnumerator AttackCoroutine()
+    {
+        animator.SetBool("isAttacking", true);
+        currAttacking = true;
+        yield return null;
+
+        animator.SetBool("isAttacking", false);
+        yield return new WaitForSeconds(0.5f);
+        currAttacking = false;
     }
 }
