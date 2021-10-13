@@ -33,7 +33,14 @@ public class PlayerController : MonoBehaviour
         //Debug.Log("rigidbody.velocity.y: " + rigidbody.velocity.y);
         if (rigidbody.velocity.y < 0)
         {
-            animator.SetBool("isFalling", true);
+            if (rigidbody.velocity.y > -0.0001)
+            {
+                animator.SetBool("isFalling", false);
+            }
+            else {
+                animator.SetBool("isFalling", true);
+            }
+
         }
         else
         {
