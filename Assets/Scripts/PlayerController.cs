@@ -118,7 +118,7 @@ public class PlayerController : MonoBehaviour
 
     void Attack()
     {
-        if (!currAttacking && Input.GetKeyDown(KeyCode.RightControl))
+        if (!currAttacking && (Input.GetKeyDown(KeyCode.LeftControl) || Input.GetKeyDown(KeyCode.RightControl) || Input.GetKeyDown(KeyCode.Return)))
         {
             StartCoroutine(AttackCoroutine());
         }
