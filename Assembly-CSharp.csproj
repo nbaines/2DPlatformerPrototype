@@ -67,6 +67,7 @@
     <Compile Include="Assets\Scripts\DeathZone.cs" />
     <Compile Include="Assets\Scripts\DialougeBox.cs" />
     <Compile Include="Assets\Scripts\HealthCollectible.cs" />
+    <Compile Include="Assets\Scripts\InteractKeyPopup.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\PlayerAtkHitbox.cs" />
@@ -77,6 +78,7 @@
     <Compile Include="Assets\Scripts\Spikes.cs" />
     <Compile Include="Assets\Scripts\UIHealthBar.cs" />
     <Compile Include="Assets\Scripts\VaseManager.cs" />
+    <Compile Include="Assets\Scripts\WinMenu.cs" />
     <None Include="Assets\Art\UI Elements\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\Art\UI Elements\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\Art\UI Elements\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
