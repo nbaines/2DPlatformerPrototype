@@ -22,5 +22,11 @@ public class PlayerAtkHitbox : MonoBehaviour
         {
             collider.GetComponent<VaseManager>().Break();
         }
+
+        if (collider.CompareTag("Enemy"))
+        {
+            Debug.Log("Hello");
+            collider.GetComponent<Spider>().Death();
+        }
     }
 }
