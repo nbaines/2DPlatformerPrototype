@@ -25,6 +25,12 @@ public class PlayerController : MonoBehaviour
             this.transform.position = new Vector3(-2.0f, 1.0f, 0f);
         }
 
+        //if (rigidbody.velocity.y < -1000)
+        //{
+        //    //velocity.y = -1000f;
+        //}
+
+        //Debug.Log("rigidbody.velocity.y: " + rigidbody.velocity.y);
         if (rigidbody.velocity.y < 0)
         {
             animator.SetBool("isFalling", true);
