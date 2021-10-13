@@ -9,8 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 148349323632061416}
-  m_Layer: 0
-  m_Name: VaseObject
+  m_Layer: 8
+  m_Name: Vase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -44,7 +44,7 @@ GameObject:
   - component: {fileID: 148349323724355430}
   - component: {fileID: 148349323724355427}
   - component: {fileID: 148349323724355426}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Vase
   m_TagString: Breakable
   m_Icon: {fileID: 0}

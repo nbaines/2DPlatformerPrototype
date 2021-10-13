@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class PlayerStats : MonoBehaviour
 {
-    //this class is going to exist here to hold all the stats of the player
-    //these variables are private but serialized so i'm just changing them in the editor for now
+    //This class will hold stats for the player, currently those are only movespeed and jumpheight.
     [SerializeField]
     private float moveSpeed;
     [SerializeField]

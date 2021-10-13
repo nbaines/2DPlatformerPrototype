@@ -11,12 +11,10 @@ public class PlayerController : MonoBehaviour
     private Animator animator; //used for sprite animations
     private bool currAttacking = false;
 
-    // Start is called before the first frame update
     void Start() {
         animator = GetComponent<Animator>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         Movement();
@@ -37,9 +35,10 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    //this function will break if there's no playerstats script attached to the same object as this
-    //also the movement gets extremely confused when the triangle spins, but that shouldn't be a problem when we bring in a real sprite.
-    //this function is called from update, and handles left right movement of the player using the horizontal inputs of the player.
+    //Pre: Called from update, requires the object it is attached to to have a playerstats script attached as well. This function will take
+    //a player's horizontal movement inputs (vertical handled in the jumper function below) and convert them to movement.
+    //Post: This function will move a player left or right based on if they press A or D on the keyboard, at a rate of speed based on the
+    //MoveSpeed variable in PlayerStats.
     void Movement()
     {
         float xInput = Input.GetAxis("Horizontal"); //momentum move (gradual key press)
@@ -71,10 +70,10 @@ public class PlayerController : MonoBehaviour
         this.transform.Translate(speed);
     }
 
-    //this function is called from update and checks if the player ever presses spacebar. If they do, it then calls the
-    //isGrounded function (see below for that function) to check if they're on the ground, if they are, it adds upwards force to the player
-    //based on what the jumpHeight stats are set to in player stats, which are edited in the inspector.
-    //for the future we can add a count to this script for number of jumps and allow 2 before calling isgrounded, things like that.
+    //Pre: This function is called from update, and listens for a player to press the spacebar. This function relies on another function
+    //named isGrounded to check if the player is on the ground and is legal to jump.
+    //this function also needs this script to be attached to an object that has player stats in it, so it can access player jump height.
+    //Post: If the player presses spacebar on te ground, the player will have their y velocity increased 
     void Jumper()
     {
         if (Input.GetKeyDown(KeyCode.Space))
@@ -95,14 +94,12 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    //took this chunk of code on checking for if grounded from https://kylewbanks.com/blog/unity-2d-checking-if-a-character-or-object-is-on-the-ground-using-raycasts
-    //how it works is this, we set a layer mask which specifies what layer we want to interact with, in this case it is the ground layer which
-    //contains all the ground tiles - we'll have to remember to set all ground tiles to the ground layer.
-    //once that's set, this will only get called if the player presses space, changed it so that we don't call this every frame.
-    //this function shoots a ray downwards from the player's position, and checks within 1 unity unit for any ground tiles. 
-    //if there are ground tiles within 1 unit, the hit will not be null and we're grounded, otherwise we're in the air.
-    //can make some changes to allow double jumps and things like that, but for now this'll stop players from rocketing into the air
-    //by mashing space. 
+    //taken from: https://kylewbanks.com/blog/unity-2d-checking-if-a-character-or-object-is-on-the-ground-using-raycasts
+    //Pre: This Function will be called when the player presses space. this function expects players to be standing on objects tagged as
+    //ground objects, otherwise as far as we are concerned the player is flying. T
+    //Post: When the player presses space, this function will shoot a ray from the center of the player downwards (negative y direction) a 
+    //distance variable to check if the player is on the ground. If the ray hits something in that distance, this function returns true
+    //otherwise it returns false.
     bool isGrounded()
     {
         Vector2 currentPos = this.transform.position;
