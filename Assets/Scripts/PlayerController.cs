@@ -106,7 +106,7 @@ public class PlayerController : MonoBehaviour
     bool isGrounded()
     {
         Vector2 currentPos = this.transform.position;
-        float distance = 0.50f;  //this value has to be tweaked so that players can't jump again while they're in the air but close to the ground.
+        float distance = 0.75f;  //this value has to be tweaked so that players can't jump again while they're in the air but close to the ground.
                                 //0.25f seems to be the sweet spot, but this may change when we put in a new sprite for the player.
         RaycastHit2D hit = Physics2D.Raycast(currentPos, Vector2.down, distance, groundLayer);
         if (hit.collider != null)

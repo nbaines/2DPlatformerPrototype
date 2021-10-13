@@ -9,6 +9,7 @@ public class Spider : MonoBehaviour
     public float changeTime = 3.0f;
 
     Rigidbody2D rigidbody2D;
+    private Animator animator; //used for sprite animations
 
     float timer;
     int direction = -1;
@@ -17,6 +18,7 @@ public class Spider : MonoBehaviour
     void Start()
     {
         rigidbody2D = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
         timer = changeTime;
     }
 
@@ -30,6 +32,15 @@ public class Spider : MonoBehaviour
         {
             direction = -direction;
             timer = changeTime;
+        }
+
+        if (direction < 0) //control walk animation
+        {
+            animator.SetFloat("moveX", -1);
+        }
+        else if (direction > 0)
+        {
+            animator.SetFloat("moveX", 1);
         }
     }
 
@@ -56,6 +67,16 @@ public class Spider : MonoBehaviour
 
     public void Death()
     {
-        Destroy(gameObject);
+        direction = 0;
+
+        animator.SetBool("isDead", true);
+        StartCoroutine(disableSpider());
+        //Destroy(gameObject);
+    }
+
+    IEnumerator disableSpider()
+    {
+        yield return new WaitForSeconds(0.5f);
+        this.gameObject.SetActive(false);
     }
 }
