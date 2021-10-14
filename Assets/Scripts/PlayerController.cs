@@ -20,10 +20,6 @@ public class PlayerController : MonoBehaviour
         Movement();
         Jumper();
         Attack();
-        if (Input.GetKeyDown(KeyCode.LeftAlt))  //DEBUG: lets you reset player position if you fall off of the map here.
-        {
-            this.transform.position = new Vector3(-2.0f, 1.0f, 0f);
-        }
 
         //if (rigidbody.velocity.y < -1000)
         //{
