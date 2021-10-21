@@ -13,11 +13,20 @@ public class PlayerHealth : MonoBehaviour
     bool isInvincible;
     float invincibleTimer;
 
+    private Material materialDefault;
+    private Material materialDamage;
+    SpriteRenderer spriteRenderer;
+
     // Start is called before the first frame update
     void Start()
     {
         currHealth = maxHealth;
         HPBar.SetHealthMax(maxHealth);
+
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        materialDefault = spriteRenderer.material;
+        materialDamage = Resources.Load("DamageRed", typeof(Material)) as Material;
+
     }
 
     // Update is called once per frame
@@ -51,6 +60,12 @@ public class PlayerHealth : MonoBehaviour
                 return;
             }
 
+            //Flash sprite ("damaged" indicator)
+            damageShader();
+            Invoke("resetShader", 0.1f);
+            Invoke("damageShader", 0.2f);
+            Invoke("resetShader", 0.3f);
+
             //Enable Invincibility Timer after taking damage
             isInvincible = true;
             invincibleTimer = timeInvincible;
@@ -63,5 +78,16 @@ public class PlayerHealth : MonoBehaviour
         {
             deathMenu.gamePause();
         }
+    }
+
+    //Changes the sprite material/shader to red (damaged)
+    private void damageShader()
+    {
+        spriteRenderer.material = materialDamage;
+    }
+
+    //Reverts the sprite material/shader to the default one
+    private void resetShader() {
+        spriteRenderer.material = materialDefault;
     }
 }

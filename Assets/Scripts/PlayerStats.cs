@@ -12,4 +12,9 @@ public class PlayerStats : MonoBehaviour
 
     public float MoveSpeed { get => moveSpeed; }
     public Vector2 JumpHeight { get => jumpHeight; }
+
+    public void setMoveSpeed(float newMoveSpeed)
+    {
+        moveSpeed = newMoveSpeed;
+    }
 }
