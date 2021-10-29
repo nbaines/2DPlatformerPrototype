@@ -26,7 +26,16 @@ public class PlayerAtkHitbox : MonoBehaviour
         if (collider.CompareTag("Enemy"))
         {
             Debug.Log("Hello");
-            collider.GetComponent<Spider>().Death();
+
+
+            if (collider.GetComponent<Spider>() != null)
+            {
+                collider.GetComponent<Spider>().Death();
+            }
+            else if (collider.GetComponent<Ghost>() != null)
+            {
+                collider.GetComponent<Ghost>().Death();
+            }
         }
     }
 }
