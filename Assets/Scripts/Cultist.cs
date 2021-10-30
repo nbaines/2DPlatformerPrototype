@@ -10,21 +10,25 @@ public class Cultist : MonoBehaviour
     Vector2 lookDirection = new Vector2(1, 0);
 
     Rigidbody2D rigidbody2D;
+    private Animator animator; //used for sprite animations
     public GameObject fireballPrefab;
 
     // Start is called before the first frame update
     void Start()
     {
         rigidbody2D = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
         timer = fireballFreq;
 
         if (direction > 0)
         {
             lookDirection.Set(1, 0);
+            animator.SetFloat("direction", 1);
         }
         else if (direction < 0)
         {
             lookDirection.Set(-1, 0);
+            animator.SetFloat("direction", -1);
         }
         
     }
@@ -61,20 +65,31 @@ public class Cultist : MonoBehaviour
     //Fireball attack
     void Fire()
     {
+        animator.SetBool("isAttacking", true);
+        StartCoroutine(ThrowFireball());
+    }
+
+    IEnumerator ThrowFireball()
+    {
+        yield return new WaitForSeconds(1.1f); //Wait for fireball throw animation (up to actual throw bit)
+
         CultistFire fireball;
-
-
         if (direction > 0)
         {
-            GameObject fireballObject = Instantiate(fireballPrefab, rigidbody2D.position + Vector2.right * 0.5f + Vector2.down * 0.5f, Quaternion.identity);
+            GameObject fireballObject = Instantiate(fireballPrefab, rigidbody2D.position + Vector2.right * 1.5f + Vector2.down * 0.5f, Quaternion.identity);
             fireball = fireballObject.GetComponent<CultistFire>();
             fireball.Launch(lookDirection, 300);
         }
         else if (direction < 0)
         {
-            GameObject fireballObject = Instantiate(fireballPrefab, rigidbody2D.position + Vector2.left * 0.5f + Vector2.down * 0.5f, Quaternion.identity);
+            GameObject fireballObject = Instantiate(fireballPrefab, rigidbody2D.position + Vector2.left * 1.5f + Vector2.down * 0.5f, Quaternion.identity);
             fireball = fireballObject.GetComponent<CultistFire>();
             fireball.Launch(lookDirection, 300);
         }
+
+       // yield return new WaitForSeconds(0.3f); //Wait for throw's "settle" animation (remaining bits of atk anim.)
+        yield return new WaitForSeconds(0.6f); //Wait for throw's "settle" animation (remaining bits of atk anim.)
+
+        animator.SetBool("isAttacking", false);
     }
 }

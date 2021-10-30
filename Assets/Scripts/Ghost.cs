@@ -9,6 +9,7 @@ public class Ghost : MonoBehaviour
     public float distance = 3.0f;       //Distance Ghost moves before changing directions
 
     Rigidbody2D rigidbody2D;
+    private Animator animator; //used for sprite animations
 
     float timer;                //Timer for directional change
     int direction = 1;          //Direction Ghost is moving
@@ -17,6 +18,7 @@ public class Ghost : MonoBehaviour
     void Start()
     {
         rigidbody2D = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
         timer = distance;
     }
 
@@ -31,6 +33,15 @@ public class Ghost : MonoBehaviour
         {
             direction = -direction;
             timer = distance;
+        }
+
+        if (direction < 0) //control walk animation
+        {
+            animator.SetFloat("moveX", -1);
+        }
+        else if (direction > 0)
+        {
+            animator.SetFloat("moveX", 1);
         }
     }
 
@@ -51,6 +62,7 @@ public class Ghost : MonoBehaviour
         }
 
         rigidbody2D.MovePosition(position);
+
     }
 
     //Damage Player On Contact (Trigger cuz he's a spooky ghost who can go thru things)

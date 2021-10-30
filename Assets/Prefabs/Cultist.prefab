@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1870736783800058723}
   - component: {fileID: 1870736783800058722}
   - component: {fileID: 1870736783800058734}
+  - component: {fileID: 4137127931650503556}
   m_Layer: 11
   m_Name: Cultist
   m_TagString: Enemy
@@ -29,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 1870736783800058725}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 12.2, y: -2.94, z: 0}
-  m_LocalScale: {x: 3.4653628, y: 3.4653628, z: 3.4653628}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -71,7 +72,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 63dd2c80660673b4ea6ec79deee81cec, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 222b1ab873071324c8ff4f7ed5d45d7e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -116,18 +117,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.02215302, y: -0.123630285}
+  m_Offset: {x: 0.16, y: -0.480721}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.81, y: 0.66}
+    oldSize: {x: 3.24, y: 2.64}
     newSize: {x: 0.81, y: 0.66}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.3337142, y: 0.42750132}
+  m_Size: {x: 0.6017542, y: 1.6771469}
   m_EdgeRadius: 0
 --- !u!114 &1870736783800058734
 MonoBehaviour:
@@ -145,3 +146,22 @@ MonoBehaviour:
   direction: -1
   fireballPrefab: {fileID: 3661607363037240141, guid: 5919842620ac62942a5bccc18b37cdb9,
     type: 3}
+--- !u!95 &4137127931650503556
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1870736783800058725}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: aeab3e0648d7f6f48a1df0a91bbbf77e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
