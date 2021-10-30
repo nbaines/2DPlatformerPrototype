@@ -36,6 +36,10 @@ public class PlayerAtkHitbox : MonoBehaviour
             {
                 collider.GetComponent<Ghost>().Death();
             }
+            else if (collider.GetComponent<Cultist>() != null)
+            {
+                collider.GetComponent<Cultist>().Death();
+            }
         }
     }
 }
