@@ -17,7 +17,7 @@ public class Spikes : MonoBehaviour
 
     //Invocation: Called when another collider w/ a RigidBody2D enters base object's collider
     //Use: Damage the Player (only once)
-    private void OnTriggerEnter2D(Collider2D collider)
+    private void OnTriggerStay2D(Collider2D collider)
     {
         if (collider.CompareTag("Player"))
         {

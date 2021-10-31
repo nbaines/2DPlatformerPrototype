@@ -25,8 +25,7 @@ public class PlayerAtkHitbox : MonoBehaviour
 
         if (collider.CompareTag("Enemy"))
         {
-            Debug.Log("Hello");
-
+            //Debug.Log("Hit something w/ 'enemy' tag");
 
             if (collider.GetComponent<Spider>() != null)
             {

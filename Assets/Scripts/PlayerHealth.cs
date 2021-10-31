@@ -33,9 +33,9 @@ public class PlayerHealth : MonoBehaviour
     void Update()
     {
         //DEBUG function: damage player w/ Right Shift key
-        if (Input.GetKeyDown(KeyCode.RightShift)) {
-            modifyHealth(-10);
-        }
+        ////if (Input.GetKeyDown(KeyCode.RightShift)) {
+        ////    modifyHealth(-10);
+        ////}
 
         //Update Invincibility Time (if applicable)
         if (isInvincible == true)
