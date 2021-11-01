@@ -12,6 +12,7 @@ public class PlayerController : MonoBehaviour
     private bool currAttacking = false;
 
     void Start() {
+        stats = GameObject.FindGameObjectWithTag("Persistance").GetComponent<PlayerStats>();
         animator = GetComponent<Animator>();
     }
 

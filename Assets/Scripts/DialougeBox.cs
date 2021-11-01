@@ -13,7 +13,17 @@ public class DialougeBox : MonoBehaviour
     public GameObject uiInteractKey;
     public bool playerIsInRange;
 
-    // Update is called once per frame
+    public LevelLoader loader;
+    public bool isLevelEnder = false;
+
+    private void Awake()
+    {
+        if (this.gameObject.tag == "LevelEnder")    //tag whatever we put at the end of the level as "LevelEnder."
+        {                                           //thinking this is the obvious place to put some indicator of what scene this dialogue box points to as well.
+            isLevelEnder = true;
+            loader = GameObject.FindGameObjectWithTag("Persistance").GetComponent<LevelLoader>();
+        }
+    }
     void Update()
     {
         if (playerIsInRange && Input.GetKeyDown(KeyCode.E)) //Player is within range of sign & presses 'E' key
@@ -26,6 +36,10 @@ public class DialougeBox : MonoBehaviour
             {
                 uiDialogueBox.SetActive(true);
                 uiDialogueText.text = dialogueActual;
+            }
+            if (isLevelEnder)   //the function this points to waits 3 seconds before loading the next level so the sign can be read.
+            {
+                loader.LoadNextLevel();
             }
         }
     }

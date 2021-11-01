@@ -70,7 +70,6 @@ GameObject:
   - component: {fileID: 3449804943190752821}
   - component: {fileID: 3449804943190752809}
   - component: {fileID: 3449804943190752822}
-  - component: {fileID: 3449804943190752811}
   - component: {fileID: 3449804943190752810}
   - component: {fileID: 691962100}
   - component: {fileID: 691962093}
@@ -206,25 +205,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26786a23795b3d34cbe47ed986ef6d61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stats: {fileID: 3449804943190752811}
+  stats: {fileID: 0}
   rigidbody: {fileID: 3449804943190752821}
   groundLayer:
     serializedVersion: 2
     m_Bits: 256
---- !u!114 &3449804943190752811
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3449804943190752820}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7018b0e17753cf74cb77cedc750a665d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 5
-  jumpHeight: {x: 0, y: 5}
 --- !u!114 &3449804943190752810
 MonoBehaviour:
   m_ObjectHideFlags: 0

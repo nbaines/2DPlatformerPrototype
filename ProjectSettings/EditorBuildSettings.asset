@@ -11,4 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Tutorial Level.unity
     guid: 779a5aac3c2149746ab863bf6a7f68b1
+  - enabled: 1
+    path: Assets/Scenes/Town Area.unity
+    guid: 10bdd62115549da4297846710f805d09
+  - enabled: 1
+    path: Assets/Scenes/Church Level.unity
+    guid: fed74d6e9e8746e469c46b29fee2456d
   m_configObjects: {}
