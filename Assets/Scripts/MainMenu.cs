@@ -5,12 +5,25 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
+    public GameObject persister;
+    public LevelLoader loader;
+    private bool playPressed = false;
+    public void Awake()
+    {
+        loader = persister.GetComponent<LevelLoader>();
+    }
+
     //Invocation: Called on click of 'Play' button
     //Use: Changes the current scene to the next scene (based on index)
     public void gameStart()
     {
+
         Debug.Log("Play button pressed. Starting game.");
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        if (!playPressed)
+        {
+            loader.LoadNextLevel();    //changed this to make the level loader script handle loading from everwhere.
+            playPressed = true;
+        }
     }
 
     //Invocation: Called on click of 'Quit' button
