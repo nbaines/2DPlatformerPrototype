@@ -11,6 +11,7 @@ public class Ghost : MonoBehaviour
 
     Rigidbody2D rigidbody2D;
     private Animator animator; //used for sprite animations
+    private PlayerController controller;
 
     float timer;                //Timer for directional change
     public int direction = 1;          //Direction Ghost is moving
@@ -23,6 +24,7 @@ public class Ghost : MonoBehaviour
     {
         rigidbody2D = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        controller = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
         timer = distance;
     }
 
@@ -35,7 +37,8 @@ public class Ghost : MonoBehaviour
         //Reset Timer and change direction when timer runs out
         if (timer < 0)
         {
-            if (!changingDir) {
+            if (!changingDir)
+            {
                 changingDir = true;
                 baseSpeed = speed;
 
@@ -43,7 +46,7 @@ public class Ghost : MonoBehaviour
 
                 Invoke("ChangeDir", dirChangeWaitTime);
             }
-            
+
             //direction = -direction;
             //timer = distance;
         }
@@ -94,6 +97,7 @@ public class Ghost : MonoBehaviour
         direction = 0;
 
         animator.SetBool("isDead", true);
+        controller.PlayDeath("Ghost");
         StartCoroutine(disableGhost());
         //Destroy(gameObject);
     }
@@ -104,7 +108,8 @@ public class Ghost : MonoBehaviour
         Destroy(gameObject);
     }
 
-    private void ChangeDir() {
+    private void ChangeDir()
+    {
         direction = -direction;
         timer = distance;
 

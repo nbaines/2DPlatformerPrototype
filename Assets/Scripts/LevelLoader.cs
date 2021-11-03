@@ -46,7 +46,7 @@ public class LevelLoader : MonoBehaviour
 
     IEnumerator ChangeScene(string toLoad)  //pass this function the name of which scene to load and it will transition us to it.
     {
-        float loadWait = 1.5f;
+        float loadWait = 0.75f;
         StartCoroutine(music.Fade(loadWait, 0.0f));
         yield return new WaitForSeconds(loadWait); //delay load start to fade music
         AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(toLoad);

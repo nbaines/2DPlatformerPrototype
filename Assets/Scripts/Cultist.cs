@@ -12,6 +12,7 @@ public class Cultist : MonoBehaviour
     Rigidbody2D rigidbody2D;
     private Animator animator; //used for sprite animations
     public GameObject fireballPrefab;
+    public PlayerController controller;
 
     bool allowAttack = true;
 
@@ -20,6 +21,7 @@ public class Cultist : MonoBehaviour
     {
         rigidbody2D = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        controller = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
         timer = fireballFreq;
 
         if (direction > 0)
@@ -32,7 +34,7 @@ public class Cultist : MonoBehaviour
             lookDirection.Set(-1, 0);
             animator.SetFloat("direction", -1);
         }
-        
+
     }
 
     // Update is called once per frame
@@ -43,7 +45,8 @@ public class Cultist : MonoBehaviour
         if (timer < 0)
         {
             Debug.Log("Hadouken!");
-            if (allowAttack) {
+            if (allowAttack)
+            {
                 Fire();
             }
             timer = fireballFreq;
@@ -68,6 +71,8 @@ public class Cultist : MonoBehaviour
 
         animator.SetBool("isDead", true);
         StartCoroutine(disableCultist());
+        controller.PlayDeath("Cultist");
+
         //Destroy(gameObject);
     }
 
@@ -89,7 +94,8 @@ public class Cultist : MonoBehaviour
         yield return new WaitForSeconds(1.1f); //Wait for fireball throw animation (up to actual throw bit)
 
         CultistFire fireball;
-        if (allowAttack) {
+        if (allowAttack)
+        {
             if (direction > 0)
             {
                 GameObject fireballObject = Instantiate(fireballPrefab, rigidbody2D.position + Vector2.right * 1.5f + Vector2.down * 0.5f, Quaternion.identity);
@@ -104,7 +110,7 @@ public class Cultist : MonoBehaviour
             }
         }
 
-       // yield return new WaitForSeconds(0.3f); //Wait for throw's "settle" animation (remaining bits of atk anim.)
+        // yield return new WaitForSeconds(0.3f); //Wait for throw's "settle" animation (remaining bits of atk anim.)
         yield return new WaitForSeconds(0.6f); //Wait for throw's "settle" animation (remaining bits of atk anim.)
 
         animator.SetBool("isAttacking", false);

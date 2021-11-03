@@ -10,6 +10,7 @@ public class PlayerHealth : MonoBehaviour
     public DeathMenu deathMenu;
     public AudioSource audioS;
     public AudioClip clip;
+    public PlayerController controller;
 
     public float timeInvincible = 2.0f;
     bool isInvincible;
@@ -28,6 +29,7 @@ public class PlayerHealth : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
         materialDefault = spriteRenderer.material;
         materialDamage = Resources.Load("DamageRed", typeof(Material)) as Material;
+        controller = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
 
     }
 
@@ -76,11 +78,8 @@ public class PlayerHealth : MonoBehaviour
         
         currHealth = Mathf.Clamp(currHealth + healthMod, 0, maxHealth);
         if (currHealth < healthOnCall)  //check if we took damage from this function, if so, play a sound
-        {
-            Debug.Log("playing damage taken!");
-            audioS.clip = Resources.Load("SFX/player-damage-taken") as AudioClip;
-            audioS.Play();
-        }
+            controller.PlayDamage();
+        
         HPBar.SetHealth(currHealth);
 
         if (currHealth <= 0) 

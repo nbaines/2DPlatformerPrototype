@@ -16,7 +16,8 @@ public class PlayerController : MonoBehaviour
     private Animator animator; //used for sprite animations
     private bool currAttacking = false;
 
-    void Start() {
+    void Start()
+    {
         stats = GameObject.FindGameObjectWithTag("Persistance").GetComponent<PlayerStats>();
         animator = GetComponent<Animator>();
         sceneName = SceneManager.GetActiveScene().name;
@@ -44,7 +45,8 @@ public class PlayerController : MonoBehaviour
             {
                 animator.SetBool("isFalling", false);
             }
-            else {
+            else
+            {
                 animator.SetBool("isFalling", true);
             }
 
@@ -73,7 +75,8 @@ public class PlayerController : MonoBehaviour
             {
                 animator.SetFloat("moveX", -1);
             }
-            else {
+            else
+            {
                 animator.SetFloat("moveX", 1);
             }
 
@@ -115,12 +118,12 @@ public class PlayerController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            if (audioS.isPlaying && (audioS.clip == audioFiles[1] || audioS.clip == audioFiles[2]))
+            if (audioS.isPlaying)
                 audioS.Stop();
             if (isGrounded())
             {
                 rigidbody.AddForce(stats.JumpHeight, ForceMode2D.Impulse);
-                
+
             }
         }
 
@@ -190,5 +193,40 @@ public class PlayerController : MonoBehaviour
     public void PlacePlayer()
     {
         gameObject.transform.position = stats.SpawnPoint;
+    }
+    public void PlayDamage()
+    {
+        audioS.clip = audioFiles[4];
+        audioS.Play();
+    }
+    public void PlayDeath(string enemy)
+    {
+        if (enemy == "Ghost")
+        {
+            StartCoroutine(WaitGhost());
+        }
+        else
+        {
+            audioS.clip = audioFiles[5];
+            audioS.Play();
+            if (enemy == "Spider")
+                StartCoroutine(WaitDeath(0.5f));
+            else if (enemy == "Cultist")
+                StartCoroutine(WaitDeath(0.9f));
+        }
+        
+
+    }
+    public IEnumerator WaitDeath(float duration)
+    {
+        yield return new WaitForSeconds(duration);
+        audioS.clip = audioFiles[6];
+        audioS.Play();
+    }
+    public IEnumerator WaitGhost()
+    {
+        yield return new WaitForSeconds(0.3f);
+        audioS.clip = audioFiles[5];
+        audioS.Play();
     }
 }

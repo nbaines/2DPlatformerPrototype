@@ -20,7 +20,7 @@ public class MusicHandler : MonoBehaviour
     void OnSceneLoaded(Scene scene, LoadSceneMode mode) 
     {
         PlayBackgroundMusic(scene.name);
-        StartCoroutine(Fade(1.5f, 0.5f));
+        StartCoroutine(Fade(0.75f, 0.5f));
     }
     public void PlayBackgroundMusic(string sceneName = "Town Area")
     {

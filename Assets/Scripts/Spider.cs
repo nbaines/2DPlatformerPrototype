@@ -10,6 +10,7 @@ public class Spider : MonoBehaviour
 
     Rigidbody2D rigidbody2D;
     private Animator animator; //used for sprite animations
+    public PlayerController controller;
 
     float timer;
     int direction = -1;
@@ -19,6 +20,8 @@ public class Spider : MonoBehaviour
     {
         rigidbody2D = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+
+        controller = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
         timer = changeTime;
     }
 
@@ -70,6 +73,7 @@ public class Spider : MonoBehaviour
         direction = 0;
 
         animator.SetBool("isDead", true);
+        controller.PlayDeath("Spider");
         StartCoroutine(disableSpider());
         //Destroy(gameObject);
     }
