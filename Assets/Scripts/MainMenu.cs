@@ -10,7 +10,8 @@ public class MainMenu : MonoBehaviour
     private bool playPressed = false;
     public void Awake()
     {
-        loader = persister.GetComponent<LevelLoader>();
+
+        loader = GameObject.FindGameObjectWithTag("Persistance").GetComponent<LevelLoader>();
     }
 
     //Invocation: Called on click of 'Play' button

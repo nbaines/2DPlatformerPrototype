@@ -9,16 +9,9 @@ public class LevelLoader : MonoBehaviour
     public PlayerStats stats;
     private string sceneName;
 
-    public void Start()
+    public void Awake()
     {
         stats = GameObject.FindGameObjectWithTag("Persistance").GetComponent<PlayerStats>();
-    }
-    public void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.P))
-        {
-            LoadNextLevel();
-        }
     }
     //TODO: figure out how to tell which scene we need to move to dynamically, implement a loading screen too probably.
     //currently the dynamic loading is going to be left undone, we're just going to go main menu -> swamp -> town -> church
