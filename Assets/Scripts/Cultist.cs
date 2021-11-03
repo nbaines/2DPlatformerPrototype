@@ -13,6 +13,8 @@ public class Cultist : MonoBehaviour
     private Animator animator; //used for sprite animations
     public GameObject fireballPrefab;
 
+    bool allowAttack = true;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -41,7 +43,9 @@ public class Cultist : MonoBehaviour
         if (timer < 0)
         {
             Debug.Log("Hadouken!");
-            Fire();
+            if (allowAttack) {
+                Fire();
+            }
             timer = fireballFreq;
         }
     }
@@ -59,6 +63,17 @@ public class Cultist : MonoBehaviour
 
     public void Death()
     {
+        //direction = 0;
+        allowAttack = false;
+
+        animator.SetBool("isDead", true);
+        StartCoroutine(disableCultist());
+        //Destroy(gameObject);
+    }
+
+    IEnumerator disableCultist()
+    {
+        yield return new WaitForSeconds(2.2f);
         Destroy(gameObject);
     }
 
@@ -74,17 +89,19 @@ public class Cultist : MonoBehaviour
         yield return new WaitForSeconds(1.1f); //Wait for fireball throw animation (up to actual throw bit)
 
         CultistFire fireball;
-        if (direction > 0)
-        {
-            GameObject fireballObject = Instantiate(fireballPrefab, rigidbody2D.position + Vector2.right * 1.5f + Vector2.down * 0.5f, Quaternion.identity);
-            fireball = fireballObject.GetComponent<CultistFire>();
-            fireball.Launch(lookDirection, 300);
-        }
-        else if (direction < 0)
-        {
-            GameObject fireballObject = Instantiate(fireballPrefab, rigidbody2D.position + Vector2.left * 1.5f + Vector2.down * 0.5f, Quaternion.identity);
-            fireball = fireballObject.GetComponent<CultistFire>();
-            fireball.Launch(lookDirection, 300);
+        if (allowAttack) {
+            if (direction > 0)
+            {
+                GameObject fireballObject = Instantiate(fireballPrefab, rigidbody2D.position + Vector2.right * 1.5f + Vector2.down * 0.5f, Quaternion.identity);
+                fireball = fireballObject.GetComponent<CultistFire>();
+                fireball.Launch(lookDirection, 300);
+            }
+            else if (direction < 0)
+            {
+                GameObject fireballObject = Instantiate(fireballPrefab, rigidbody2D.position + Vector2.left * 1.5f + Vector2.down * 0.5f, Quaternion.identity);
+                fireball = fireballObject.GetComponent<CultistFire>();
+                fireball.Launch(lookDirection, 300);
+            }
         }
 
        // yield return new WaitForSeconds(0.3f); //Wait for throw's "settle" animation (remaining bits of atk anim.)

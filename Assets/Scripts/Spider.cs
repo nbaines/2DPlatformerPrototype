@@ -77,6 +77,6 @@ public class Spider : MonoBehaviour
     IEnumerator disableSpider()
     {
         yield return new WaitForSeconds(2.2f);
-        this.gameObject.SetActive(false);
+        Destroy(gameObject);
     }
 }

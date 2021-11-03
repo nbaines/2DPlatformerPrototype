@@ -92,6 +92,15 @@ public class Ghost : MonoBehaviour
     public void Death()
     {
         direction = 0;
+
+        animator.SetBool("isDead", true);
+        StartCoroutine(disableGhost());
+        //Destroy(gameObject);
+    }
+
+    IEnumerator disableGhost()
+    {
+        yield return new WaitForSeconds(0.9f);
         Destroy(gameObject);
     }
 
