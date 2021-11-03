@@ -77,7 +77,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 0.75
+  m_Volume: 0
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -176,7 +176,7 @@ MonoBehaviour:
   audioS: {fileID: 104084695}
   musicFiles:
   - {fileID: 8300000, guid: 4f36ff3967eb488469bb848ccde0f59f, type: 3}
-  - {fileID: 8300000, guid: c05680853358c68448189c1b3cb95df6, type: 3}
+  - {fileID: 8300000, guid: cf89d3db05637dd4bb928ca0b2688666, type: 3}
   sceneName: 
 --- !u!114 &104084698
 MonoBehaviour:

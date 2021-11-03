@@ -95,7 +95,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerHealth: {fileID: 0}
+  playerStats: {fileID: 0}
   player: {fileID: 0}
+  persistanceHolder: {fileID: 9219979110398297983, guid: e4700db3e99be7f40a6350f55f165657,
+    type: 3}
 --- !u!61 &3903099568639532701
 BoxCollider2D:
   m_ObjectHideFlags: 0

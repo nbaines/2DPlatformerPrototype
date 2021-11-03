@@ -6,6 +6,7 @@ using UnityEngine;
 public class LevelLoader : MonoBehaviour
 {
     public MusicHandler music;  //assigned in editor
+    private string sceneName;
 
     public void Update()
     {
@@ -17,7 +18,7 @@ public class LevelLoader : MonoBehaviour
     //leaving the framework for loading dynamically and retreading levels if anyone ever comes back to this.
     public void LoadNextLevel(string toLoad = "Town Area")
     {
-        string sceneName = SceneManager.GetActiveScene().name;
+        sceneName = SceneManager.GetActiveScene().name;
         if (sceneName == "MainMenu")
             toLoad = "Swamp Level";
         else if (sceneName == "Swamp Level")

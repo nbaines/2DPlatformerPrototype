@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -8,12 +9,17 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private new Rigidbody2D rigidbody; //these are assigned in inspector
 
     public LayerMask groundLayer;   //used in the isgrounded function
+    public AudioSource audioS;      //plays the audio
+    public AudioClip[] audioFiles;
+
+    private string sceneName;
     private Animator animator; //used for sprite animations
     private bool currAttacking = false;
 
     void Start() {
         stats = GameObject.FindGameObjectWithTag("Persistance").GetComponent<PlayerStats>();
         animator = GetComponent<Animator>();
+        sceneName = SceneManager.GetActiveScene().name;
     }
 
     void Update()
@@ -69,10 +75,24 @@ public class PlayerController : MonoBehaviour
 
             //animator.SetFloat("moveX", xInput);
             animator.SetBool("isMoving", true);
+            if (!audioS.isPlaying && isGrounded(0.7f))
+            {
+                audioS.pitch = Random.Range(0.9f, 1.2f);
+                Debug.Log(audioS.pitch);
+                if ( sceneName == "Swamp Level")
+                   audioS.PlayOneShot(audioFiles[1]);
+                
+                else if (sceneName == "Church Level")
+                {
+                    audioS.PlayOneShot(audioFiles[2]);//this will be implemented later
+                }
+            }
         }
         else
         {
             animator.SetBool("isMoving", false);
+            if (audioS.isPlaying)
+                audioS.Stop();
         }
 
         Vector2 speed = new Vector2(xInput, 0f) * stats.MoveSpeed * Time.deltaTime;
@@ -88,9 +108,12 @@ public class PlayerController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
+            if (audioS.isPlaying)
+                audioS.Stop();
             if (isGrounded())
             {
                 rigidbody.AddForce(stats.JumpHeight, ForceMode2D.Impulse);
+                
             }
         }
 
@@ -110,11 +133,9 @@ public class PlayerController : MonoBehaviour
     //Post: When the player presses space, this function will shoot a ray from the center of the player downwards (negative y direction) a 
     //distance variable to check if the player is on the ground. If the ray hits something in that distance, this function returns true
     //otherwise it returns false.
-    bool isGrounded()
+    bool isGrounded(float distance = 0.75f)
     {
         Vector2 currentPos = this.transform.position;
-        float distance = 0.75f;  //this value has to be tweaked so that players can't jump again while they're in the air but close to the ground.
-                                 //0.25f seems to be the sweet spot, but this may change when we put in a new sprite for the player.
         RaycastHit2D hit = Physics2D.Raycast(currentPos, Vector2.down, distance, groundLayer);
         if (hit.collider != null)
         {
@@ -133,6 +154,7 @@ public class PlayerController : MonoBehaviour
     {
         if (!currAttacking && (Input.GetKeyDown(KeyCode.LeftControl) || Input.GetKeyDown(KeyCode.RightControl) || Input.GetKeyDown(KeyCode.Return)))
         {
+            audioS.PlayOneShot(audioFiles[0]);  //audioFiles[0] is the sword swing sfx
             StartCoroutine(AttackCoroutine());
         }
     }

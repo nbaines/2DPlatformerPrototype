@@ -10,12 +10,14 @@ public class Spikes : MonoBehaviour
     public GameObject persistanceHolder;
 
     // Start is called before the first frame update
-    void Start()
+
+    private void Start()
     {
+        persistanceHolder = GameObject.FindWithTag("Persistance");
         playerHealth = player.GetComponent<PlayerHealth>(); //access Player's health class
         playerStats = persistanceHolder.GetComponent<PlayerStats>();
-        
     }
+
 
     //Invocation: Called when another collider w/ a RigidBody2D enters base object's collider
     //Use: Damage the Player (only once)

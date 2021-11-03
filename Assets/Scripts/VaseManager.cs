@@ -5,23 +5,17 @@ using UnityEngine;
 public class VaseManager : MonoBehaviour
 {
     private Animator animator;
+    private AudioSource audioS;
 
-    // Start is called before the first frame update
     void Start()
     {
         animator = GetComponent<Animator>();
-
+        audioS = GetComponent<AudioSource>();
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
     public void Break()
     {
         animator.SetBool("isBroken", true);
+        audioS.Play();
         StartCoroutine(disableVase());
     }
 
