@@ -5,6 +5,7 @@ using UnityEngine;
 public class WinMenu : MonoBehaviour
 {
     public GameObject winMenuInterface;
+    bool hasWon = false;
 
     // Start is called before the first frame update
     void Start()
@@ -15,7 +16,13 @@ public class WinMenu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.Escape)) //Invert current pause state (paused/not paused)
+        {
+            if (hasWon) {
+                Debug.Log("Quit button pressed. Exiting game.");
+                Application.Quit();
+            }
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collider)
@@ -23,6 +30,8 @@ public class WinMenu : MonoBehaviour
         if (collider.CompareTag("Player"))
         {
             winMenuInterface.SetActive(true);
+            Time.timeScale = 0f; //pause time
+            hasWon = true;
         }
     }
 
