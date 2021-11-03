@@ -12,7 +12,7 @@ public class Ghost : MonoBehaviour
     private Animator animator; //used for sprite animations
 
     float timer;                //Timer for directional change
-    int direction = 1;          //Direction Ghost is moving
+    public int direction = 1;          //Direction Ghost is moving
 
     // Start is called before the first frame update
     void Start()
