@@ -40,7 +40,7 @@ public class LevelLoader : MonoBehaviour
         else if (toLoad == "Town Area")
             stats.SetSpawnPoint(new Vector2(2.0f, 0.0f));
         else if (toLoad == "Church Level")
-            stats.SetSpawnPoint(new Vector2(-4.0f, -2.5f));
+            stats.SetSpawnPoint(new Vector2(-6.0f, -2.6f));
         StartCoroutine(ChangeScene(toLoad));
     }
 

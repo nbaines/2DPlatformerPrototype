@@ -18,9 +18,9 @@ TagManager:
   - UI
   - 
   - 
+  - Foreground
   - Ground
   - Background
-  - 
   - 
   - 
   - 
@@ -48,4 +48,10 @@ TagManager:
     locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Villagers
+    uniqueID: 1090459195
+    locked: 0
+  - name: Player
+    uniqueID: 537783571
     locked: 0
