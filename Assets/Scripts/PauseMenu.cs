@@ -7,6 +7,11 @@ public class PauseMenu : MonoBehaviour
 {
     public static bool isPaused = false;
     public GameObject pauseMenuInterface;
+    public LevelLoader loader;
+    public void Start()
+    {
+        loader = GameObject.FindGameObjectWithTag("Persistance").GetComponent<LevelLoader>();
+    }
 
     // Update is called once per frame
     void Update()
@@ -45,7 +50,7 @@ public class PauseMenu : MonoBehaviour
         Time.timeScale = 1f; //standard timescale
 
         Debug.Log("Main Menu button pressed. Returning player to main menu.");
-        SceneManager.LoadScene("MainMenu"); //Changes the current scene to "MainMenu"
+        loader.LoadNextLevel("MainMenu"); //Changes the current scene to "MainMenu"
     }
 
     //Invocation: Called on click of 'Quit' button (in pause menu)

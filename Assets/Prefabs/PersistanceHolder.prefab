@@ -49,9 +49,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   jumpHeight: {x: 0, y: 5}
-  levelOneAccessible: 1
-  hubAccessible: 0
-  levelTwoAccessible: 0
+  spawnPoint: {x: 0, y: 0}
 --- !u!114 &9219979110398297982
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -177,6 +175,7 @@ MonoBehaviour:
   musicFiles:
   - {fileID: 8300000, guid: 4f36ff3967eb488469bb848ccde0f59f, type: 3}
   - {fileID: 8300000, guid: cf89d3db05637dd4bb928ca0b2688666, type: 3}
+  - {fileID: 8300000, guid: 25b2b48f05927394c9592e029803ca29, type: 3}
   sceneName: 
 --- !u!114 &104084698
 MonoBehaviour:

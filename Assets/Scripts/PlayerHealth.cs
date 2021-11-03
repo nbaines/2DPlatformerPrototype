@@ -8,6 +8,8 @@ public class PlayerHealth : MonoBehaviour
     public int currHealth;
     public UIHealthBar HPBar;
     public DeathMenu deathMenu;
+    public AudioSource audioS;
+    public AudioClip clip;
 
     public float timeInvincible = 2.0f;
     bool isInvincible;
@@ -22,7 +24,7 @@ public class PlayerHealth : MonoBehaviour
     {
         currHealth = maxHealth;
         HPBar.SetHealthMax(maxHealth);
-
+        audioS = GetComponent<AudioSource>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         materialDefault = spriteRenderer.material;
         materialDamage = Resources.Load("DamageRed", typeof(Material)) as Material;
@@ -52,6 +54,7 @@ public class PlayerHealth : MonoBehaviour
 
     public void modifyHealth(int healthMod) 
     {
+        float healthOnCall = currHealth;
         if (healthMod < 0)
         {
             //Block Damage while invincibility timer is active
@@ -70,8 +73,14 @@ public class PlayerHealth : MonoBehaviour
             isInvincible = true;
             invincibleTimer = timeInvincible;
         }
-
+        
         currHealth = Mathf.Clamp(currHealth + healthMod, 0, maxHealth);
+        if (currHealth < healthOnCall)  //check if we took damage from this function, if so, play a sound
+        {
+            Debug.Log("playing damage taken!");
+            audioS.clip = Resources.Load("SFX/player-damage-taken") as AudioClip;
+            audioS.Play();
+        }
         HPBar.SetHealth(currHealth);
 
         if (currHealth <= 0) 

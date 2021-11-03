@@ -9,16 +9,19 @@ public class PlayerStats : MonoBehaviour
     private float moveSpeed;
     [SerializeField]
     private Vector2 jumpHeight; //jump height has to be done as a vector2 instead of a float, x is 0 and y gets changed.
-
-    public bool levelOneAccessible = true;   //this is for the tutorial level
-    public bool hubAccessible = false;      //will set this to true for finishing level 1
-    public bool levelTwoAccessible = false;
+    [SerializeField]
+    private Vector2 spawnPoint;
     //add more as needed
     public float MoveSpeed { get => moveSpeed; }
     public Vector2 JumpHeight { get => jumpHeight; }
+    public Vector2 SpawnPoint { get => spawnPoint;}
 
     public void setMoveSpeed(float newMoveSpeed)
     {
         moveSpeed = newMoveSpeed;
+    }
+    public void SetSpawnPoint(Vector2 newSpawn)
+    {
+        spawnPoint = newSpawn;
     }
 }

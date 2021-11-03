@@ -44,7 +44,6 @@ public class CultistFire : MonoBehaviour
             player.modifyHealth(-10);
         }
 
-        Debug.Log("Collision with " + collider.gameObject);
         animator.SetBool("isDead", true);
         StartCoroutine(disableFireball());
 

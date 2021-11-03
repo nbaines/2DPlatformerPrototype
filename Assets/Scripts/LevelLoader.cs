@@ -6,25 +6,41 @@ using UnityEngine;
 public class LevelLoader : MonoBehaviour
 {
     public MusicHandler music;  //assigned in editor
+    public PlayerStats stats;
     private string sceneName;
 
+    public void Start()
+    {
+        stats = GameObject.FindGameObjectWithTag("Persistance").GetComponent<PlayerStats>();
+    }
     public void Update()
     {
         if (Input.GetKeyDown(KeyCode.P))
+        {
             LoadNextLevel();
+        }
     }
     //TODO: figure out how to tell which scene we need to move to dynamically, implement a loading screen too probably.
     //currently the dynamic loading is going to be left undone, we're just going to go main menu -> swamp -> town -> church
     //leaving the framework for loading dynamically and retreading levels if anyone ever comes back to this.
-    public void LoadNextLevel(string toLoad = "Town Area")
+    public void LoadNextLevel(string toLoad = " ")
     {
-        sceneName = SceneManager.GetActiveScene().name;
-        if (sceneName == "MainMenu")
-            toLoad = "Swamp Level";
-        else if (sceneName == "Swamp Level")
-            toLoad = "Town Area";
-        else if (sceneName == "Town Area")
-            toLoad = "Church Level";
+        if (toLoad == " ")
+        {
+            sceneName = SceneManager.GetActiveScene().name;
+            if (sceneName == "MainMenu")
+                toLoad = "Swamp Level";
+            else if (sceneName == "Swamp Level")
+                toLoad = "Town Area";
+            else if (sceneName == "Town Area")
+                toLoad = "Church Level";
+        }
+        if (toLoad == "Swamp Level")
+            stats.SetSpawnPoint(new Vector2(15.5f, 3.5f));
+        else if (toLoad == "Town Area")
+            stats.SetSpawnPoint(new Vector2(2.0f, 0.0f));
+        else if (toLoad == "Church Level")
+            stats.SetSpawnPoint(new Vector2(-4.0f, -2.5f));
         StartCoroutine(ChangeScene(toLoad));
     }
 

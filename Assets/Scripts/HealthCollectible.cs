@@ -18,7 +18,8 @@ public class HealthCollectible : MonoBehaviour
         {
             if (player.currHealth < player.maxHealth)
             {
-                audioS.Play();
+                Debug.Log("Playing heart sfx");
+                other.GetComponent<PlayerController>().PlayHeartPickup();
                 player.modifyHealth(10);
                 Destroy(gameObject);
             }

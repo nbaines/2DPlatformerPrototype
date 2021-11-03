@@ -20,7 +20,7 @@ public class MusicHandler : MonoBehaviour
     void OnSceneLoaded(Scene scene, LoadSceneMode mode) 
     {
         PlayBackgroundMusic(scene.name);
-        StartCoroutine(Fade(1.5f, 0.75f));
+        StartCoroutine(Fade(1.5f, 0.5f));
     }
     public void PlayBackgroundMusic(string sceneName = "Town Area")
     {
@@ -28,6 +28,8 @@ public class MusicHandler : MonoBehaviour
             audioS.clip = musicFiles[0];
         else if (sceneName == "Town Area" || sceneName == "MainMenu")   //edit this if else chain when the church is implemented.
             audioS.clip = musicFiles[1];
+        else if (sceneName == "Church Level")
+            audioS.clip = musicFiles[2];
         audioS.Play();
     }
 

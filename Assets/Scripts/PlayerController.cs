@@ -20,11 +20,15 @@ public class PlayerController : MonoBehaviour
         stats = GameObject.FindGameObjectWithTag("Persistance").GetComponent<PlayerStats>();
         animator = GetComponent<Animator>();
         sceneName = SceneManager.GetActiveScene().name;
-    }
 
-    void Update()
+        PlacePlayer();
+    }
+    private void FixedUpdate()
     {
         Movement();
+    }
+    void Update()
+    {
         Jumper();
         Attack();
 
@@ -78,20 +82,23 @@ public class PlayerController : MonoBehaviour
             if (!audioS.isPlaying && isGrounded(0.7f))
             {
                 audioS.pitch = Random.Range(0.9f, 1.2f);
-                Debug.Log(audioS.pitch);
-                if ( sceneName == "Swamp Level")
-                   audioS.PlayOneShot(audioFiles[1]);
-                
+                if (sceneName == "Swamp Level")
+                {
+                    audioS.clip = audioFiles[1];
+                    audioS.Play();
+                }
+
                 else if (sceneName == "Church Level")
                 {
-                    audioS.PlayOneShot(audioFiles[2]);//this will be implemented later
+                    audioS.clip = audioFiles[2];
+                    audioS.Play();
                 }
             }
         }
         else
         {
             animator.SetBool("isMoving", false);
-            if (audioS.isPlaying)
+            if (audioS.isPlaying && (audioS.clip == audioFiles[1] || audioS.clip == audioFiles[2]))
                 audioS.Stop();
         }
 
@@ -108,7 +115,7 @@ public class PlayerController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            if (audioS.isPlaying)
+            if (audioS.isPlaying && (audioS.clip == audioFiles[1] || audioS.clip == audioFiles[2]))
                 audioS.Stop();
             if (isGrounded())
             {
@@ -154,7 +161,12 @@ public class PlayerController : MonoBehaviour
     {
         if (!currAttacking && (Input.GetKeyDown(KeyCode.LeftControl) || Input.GetKeyDown(KeyCode.RightControl) || Input.GetKeyDown(KeyCode.Return)))
         {
-            audioS.PlayOneShot(audioFiles[0]);  //audioFiles[0] is the sword swing sfx
+            if (!audioS.isPlaying || (audioS.isPlaying && audioS.clip != audioFiles[0]))
+            {
+                audioS.pitch = Random.Range(0.9f, 1.2f);
+                audioS.clip = audioFiles[0];
+                audioS.Play();
+            }
             StartCoroutine(AttackCoroutine());
         }
     }
@@ -168,5 +180,15 @@ public class PlayerController : MonoBehaviour
         animator.SetBool("isAttacking", false);
         yield return new WaitForSeconds(0.5f);
         currAttacking = false;
+    }
+
+    public void PlayHeartPickup()
+    {
+        audioS.clip = audioFiles[3];
+        audioS.Play();
+    }
+    public void PlacePlayer()
+    {
+        gameObject.transform.position = stats.SpawnPoint;
     }
 }

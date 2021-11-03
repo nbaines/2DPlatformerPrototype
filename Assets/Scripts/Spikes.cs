@@ -13,6 +13,7 @@ public class Spikes : MonoBehaviour
 
     private void Start()
     {
+        player = GameObject.FindWithTag("Player");
         persistanceHolder = GameObject.FindWithTag("Persistance");
         playerHealth = player.GetComponent<PlayerHealth>(); //access Player's health class
         playerStats = persistanceHolder.GetComponent<PlayerStats>();

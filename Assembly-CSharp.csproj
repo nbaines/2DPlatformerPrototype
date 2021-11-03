@@ -63,6 +63,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\ColliderHandler.cs" />
     <Compile Include="Assets\Scripts\Cultist.cs" />
     <Compile Include="Assets\Scripts\CultistFire.cs" />
     <Compile Include="Assets\Scripts\DeathMenu.cs" />

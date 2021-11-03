@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8710023790636918700}
   - component: {fileID: 3481392859491327856}
   - component: {fileID: 1792227967}
+  - component: {fileID: 670570816}
   m_Layer: 0
   m_Name: atkHitboxLeft
   m_TagString: Untagged
@@ -59,6 +60,18 @@ BoxCollider2D:
   m_Size: {x: 1.3927517, y: 0.28356832}
   m_EdgeRadius: 0
 --- !u!114 &1792227967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3233242765365863341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a474cbd77f0ecaf428c84dec3e47f9e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &670570816
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -199,6 +212,8 @@ MonoBehaviour:
   audioFiles:
   - {fileID: 8300000, guid: 68f9e671d71722343aa300f1f8fbe1b5, type: 3}
   - {fileID: 8300000, guid: 4a3fee4d4a5676f4abd65dd91a09ba00, type: 3}
+  - {fileID: 8300000, guid: f1b9d23b285cd624187c50b3f2df3055, type: 3}
+  - {fileID: 8300000, guid: 5f41676fbbba17c4a921582c7b5ead7f, type: 3}
 --- !u!114 &3449804943190752810
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -215,6 +230,8 @@ MonoBehaviour:
   currHealth: 0
   HPBar: {fileID: 0}
   deathMenu: {fileID: 0}
+  audioS: {fileID: 0}
+  clip: {fileID: 8300000, guid: a8896c55cd5b197408f2cd79071bc879, type: 3}
   timeInvincible: 1
 --- !u!61 &691962100
 BoxCollider2D:
@@ -252,7 +269,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 68f9e671d71722343aa300f1f8fbe1b5, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 0.5
   m_Pitch: 1
@@ -368,6 +385,7 @@ GameObject:
   - component: {fileID: 3339948394361727648}
   - component: {fileID: 7028035261249230586}
   - component: {fileID: 347810067}
+  - component: {fileID: 1944217672}
   m_Layer: 0
   m_Name: atkHitboxRight
   m_TagString: Untagged
@@ -416,6 +434,18 @@ BoxCollider2D:
   m_Size: {x: 1.3927517, y: 0.28356832}
   m_EdgeRadius: 0
 --- !u!114 &347810067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9069784688493169204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a474cbd77f0ecaf428c84dec3e47f9e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1944217672
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
