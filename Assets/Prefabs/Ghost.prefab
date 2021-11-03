@@ -145,6 +145,8 @@ MonoBehaviour:
   vertical: 0
   speed: 3
   distance: 3
+  dirChangeWaitTime: 0.5
+  direction: 1
 --- !u!95 &5116552051485756329
 Animator:
   serializedVersion: 3

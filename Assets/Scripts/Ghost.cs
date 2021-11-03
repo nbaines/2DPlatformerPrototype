@@ -7,12 +7,16 @@ public class Ghost : MonoBehaviour
     public bool vertical;               //If true, Ghost moves vertically, otherwise Ghost moves horizontally
     public float speed = 3.0f;          //Speed of Gost's movement
     public float distance = 3.0f;       //Distance Ghost moves before changing directions
+    public float dirChangeWaitTime = 1.0f;
 
     Rigidbody2D rigidbody2D;
     private Animator animator; //used for sprite animations
 
     float timer;                //Timer for directional change
     public int direction = 1;          //Direction Ghost is moving
+
+    bool changingDir = false;
+    float baseSpeed = 0.0f;
 
     // Start is called before the first frame update
     void Start()
@@ -31,8 +35,17 @@ public class Ghost : MonoBehaviour
         //Reset Timer and change direction when timer runs out
         if (timer < 0)
         {
-            direction = -direction;
-            timer = distance;
+            if (!changingDir) {
+                changingDir = true;
+                baseSpeed = speed;
+
+                speed = 0.0f;
+
+                Invoke("ChangeDir", dirChangeWaitTime);
+            }
+            
+            //direction = -direction;
+            //timer = distance;
         }
 
         if (direction < 0) //control walk animation
@@ -80,5 +93,13 @@ public class Ghost : MonoBehaviour
     {
         direction = 0;
         Destroy(gameObject);
+    }
+
+    private void ChangeDir() {
+        direction = -direction;
+        timer = distance;
+
+        changingDir = false;
+        speed = baseSpeed;
     }
 }
