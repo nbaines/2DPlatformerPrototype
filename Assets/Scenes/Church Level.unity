@@ -1757,8 +1757,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   uiDialogueBox: {fileID: 1509322356}
   uiDialogueText: {fileID: 706634793}
-  dialogueActual: This is a checkpoint! You automatically activate it when you pass
-    by.
+  dialogueActual: This is a <style=Red>checkpoint</style>! You automatically activate
+    it when you pass by.
   uiInteractKey: {fileID: 168423253}
   playerIsInRange: 0
   loader: {fileID: 0}
@@ -6511,8 +6511,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   uiDialogueBox: {fileID: 1509322356}
   uiDialogueText: {fileID: 706634793}
-  dialogueActual: The Fossegrim is summoning the monsters from the bottom of this
-    well! Quickly, descend to the bottom of the well to confront the Fossegrim!
+  dialogueActual: The <style=Red>Fossegrim</style> is summoning the monsters from
+    the bottom of this well! Quickly, <style=Red>descend to the bottom of the well</style>
+    to confront the Fossegrim!
   uiInteractKey: {fileID: 346246931}
   playerIsInRange: 0
   loader: {fileID: 0}
@@ -7151,7 +7152,7 @@ MonoBehaviour:
   uiDialogueBox: {fileID: 1509322356}
   uiDialogueText: {fileID: 706634793}
   dialogueActual: "You found a secret! Did you know? The Swedish name for the Fossegrim
-    is Str\xF6mkarlen, meaning \"The River Man.\""
+    is <style=Red>Str\xF6mkarlen</style>, meaning \"The River Man.\""
   uiInteractKey: {fileID: 825618390}
   playerIsInRange: 0
   loader: {fileID: 0}
@@ -106226,7 +106227,7 @@ PrefabInstance:
         type: 3}
       propertyPath: dialogueActual
       value: That sword looks like it could stop anything! Maybe even <style=Red>dark
-        magic</style> thrown at you... Good Luck, I know you can do it!
+        magic</style> thrown at you... Good luck, I know you can do it!
       objectReference: {fileID: 0}
     - target: {fileID: 3618504895659214505, guid: 288fb8ae89c28974aa894d07c3ef054f,
         type: 3}

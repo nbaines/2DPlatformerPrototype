@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 498}
   m_MaxSize: {x: 14004, y: 14048}
   vertical: 0
-  controlID: 6252
+  controlID: 1322
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -129,7 +129,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 498}
   m_MaxSize: {x: 10002, y: 14048}
   vertical: 1
-  controlID: 6253
+  controlID: 1323
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -154,7 +154,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 224}
   m_MaxSize: {x: 8006, y: 4024}
   vertical: 0
-  controlID: 6254
+  controlID: 1247
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -212,7 +212,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 94a3feff7ad8feff5c1affff8425ffff26fbffffdefbffff423b0000723b0000fa3c00005e060100d2070100
+      m_ExpandedIDs: defbffffae1a0000c01a0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -255,8 +255,8 @@ MonoBehaviour:
     y: 0
     width: 853
     height: 574
-  m_MinSize: {x: 204, y: 224}
-  m_MaxSize: {x: 4004, y: 4024}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 2}
   m_Panes:
   - {fileID: 8}
@@ -295,9 +295,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -2.5899835, y: -1.5962192, z: 5.2555385}
+    m_Target: {x: 394.84848, y: 265.71136, z: -1}
     speed: 2
-    m_Value: {x: -2.5899835, y: -1.5962192, z: 5.2555385}
+    m_Value: {x: 394.84848, y: 265.71136, z: -1}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -329,9 +329,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 7.1400924
+    m_Target: 623.8395
     speed: 2
-    m_Value: 7.1400924
+    m_Value: 623.8395
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -435,19 +435,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Scenes
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets
+  - Assets/Scenes
   m_LastFoldersGridSize: 16
   m_LastProjectPath: G:\Backups\GitHub\2DPlatformerPrototype
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 700b0000
-    m_LastClickedID: 2928
+    scrollPos: {x: 0, y: 341}
+    m_SelectedIDs: ae100000
+    m_LastClickedID: 4270
     m_ExpandedIDs: 00000000700b0000780b0000700c0000880c0000b40c0000de0c0000f20c0000f20f0000ac100000ac110000fe1700008c18000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -503,22 +503,22 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000da300000be300000be350000f035000012380000b22f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Style Sheets
-      m_OriginalName: Style Sheets
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 6550
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 10}
     m_CreateAssetUtility:
@@ -585,7 +585,7 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -3650
+  m_LastSelectedObjectID: 6848
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52

@@ -28779,8 +28779,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   uiDialogueBox: {fileID: 843995963}
   uiDialogueText: {fileID: 660382217}
-  dialogueActual: This is a checkpoint! You automatically activate it when you pass
-    by.
+  dialogueActual: This is a <style=Red>checkpoint</style>! You automatically activate
+    it when you pass by.
   uiInteractKey: {fileID: 617248489}
   playerIsInRange: 0
   loader: {fileID: 0}
@@ -31672,8 +31672,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   uiDialogueBox: {fileID: 843995963}
   uiDialogueText: {fileID: 660382217}
-  dialogueActual: Fall onto those spikes back there? Ouch! Fret not, you can collect
-    hearts to recover your HP!
+  dialogueActual: Fall onto those spikes back there? Ouch! Fret not, you can <style=Red>collect
+    hearts</style> to recover your HP!
   uiInteractKey: {fileID: 3699423552768918697}
   playerIsInRange: 0
   loader: {fileID: 0}
@@ -31841,8 +31841,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   uiDialogueBox: {fileID: 843995963}
   uiDialogueText: {fileID: 660382217}
-  dialogueActual: Ahead are weak spider-like spirits that roam the swamp. One blow
-    from your holy blade can banish them, but use caution; they are quite agile!
+  dialogueActual: Ahead are weak <style=Red>spider-like spirits</style> that roam
+    the swamp. One blow from your holy blade can <style=Red>banish</style> them, but
+    use caution; they are quite agile!
   uiInteractKey: {fileID: 3699423551008034131}
   playerIsInRange: 0
   loader: {fileID: 0}
@@ -32016,7 +32017,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   uiDialogueBox: {fileID: 843995963}
   uiDialogueText: {fileID: 660382217}
-  dialogueActual: Move with <A> & <D> or the Arrow Keys. Jump using <Spacebar>!
+  dialogueActual: Move with <style=Red><A> & <D></style> or the <style=Red>Arrow Keys</style>.
+    Jump using <style=Red><Spacebar></style>!
   uiInteractKey: {fileID: 3699423551225739970}
   playerIsInRange: 0
   loader: {fileID: 0}
@@ -32169,8 +32171,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   uiDialogueBox: {fileID: 843995963}
   uiDialogueText: {fileID: 660382217}
-  dialogueActual: Attack using the <Ctrl> or <Enter> keys. Try using your attack to
-    break these vases!
+  dialogueActual: Attack using the <style=Red><Ctrl></style> or <style=Red><Enter></style>
+    keys. Try using your attack to break these vases!
   uiInteractKey: {fileID: 3699423551375896004}
   playerIsInRange: 0
   loader: {fileID: 0}
@@ -32282,7 +32284,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   uiDialogueBox: {fileID: 843995963}
   uiDialogueText: {fileID: 660382217}
-  dialogueActual: To Wingston -->
+  dialogueActual: To <style=Blue>Wingston</style> ->
   uiInteractKey: {fileID: 3699423551658987053}
   playerIsInRange: 0
   loader: {fileID: 0}
