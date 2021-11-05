@@ -238,9 +238,9 @@ PrefabInstance:
     - target: {fileID: 3618504895659214504, guid: 288fb8ae89c28974aa894d07c3ef054f,
         type: 3}
       propertyPath: dialogueActual
-      value: Something is wrong at the church; nobody who enters returns. I swear
-        I saw something floating outside when I went last night, but that's impossible...
-        right?
+      value: Something is wrong at the <style=Blue>church</style>; nobody who enters
+        returns. I swear I saw <style=Red>something floating</style> outside when
+        I went out last night, but that's impossible... right?
       objectReference: {fileID: 0}
     - target: {fileID: 3618504895659214504, guid: 288fb8ae89c28974aa894d07c3ef054f,
         type: 3}
@@ -4081,8 +4081,8 @@ PrefabInstance:
     - target: {fileID: 3618504895659214504, guid: 288fb8ae89c28974aa894d07c3ef054f,
         type: 3}
       propertyPath: dialogueActual
-      value: 'Hello traveler! Welcome to our village, Wingston. We''ve seen better
-        days, but you''re welcome to stay as long as you like. '
+      value: 'Hello traveler! Welcome to our village, <style=Blue>Wingston</style>.
+        We''ve seen better days, but you''re welcome to stay as long as you like. '
       objectReference: {fileID: 0}
     - target: {fileID: 3618504895659214505, guid: 288fb8ae89c28974aa894d07c3ef054f,
         type: 3}
@@ -4509,7 +4509,8 @@ PrefabInstance:
         type: 3}
       propertyPath: dialogueActual
       value: The normal path between our town and the church has been sundered. The
-        guy at the end of the road has a way to get there if you're really determined.
+        <style=Red>guy at the end of the road</style> has a way to get there if you're
+        really determined.
       objectReference: {fileID: 0}
     - target: {fileID: 3618504895659214505, guid: 288fb8ae89c28974aa894d07c3ef054f,
         type: 3}
@@ -4817,8 +4818,7 @@ PrefabInstance:
     - target: {fileID: 3618504895659214504, guid: 288fb8ae89c28974aa894d07c3ef054f,
         type: 3}
       propertyPath: dialogueActual
-      value: I know a secret way to get right to the church. Hop in, I'll take you
-        there!
+      value: I know a secret way right to the church. Hop in, I'll take you there!
       objectReference: {fileID: 0}
     - target: {fileID: 3618504895659214504, guid: 288fb8ae89c28974aa894d07c3ef054f,
         type: 3}
