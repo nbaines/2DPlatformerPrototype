@@ -39,14 +39,22 @@ public class DialougeBox : MonoBehaviour
             }
             if (isLevelEnder)   //the function this points to waits 3 seconds before loading the next level so the sign can be read.
             {
-                loader.LoadNextLevel();
+                //loader.LoadNextLevel();
+                StartCoroutine("NextLevel");
             }
         }
     }
 
-    //Invocation: Called when another collider w/ a RigidBody2D enters base object's collider
-    //Use: Determine if Player is entering sign's reading range (i.e. collider)
-    private void OnTriggerEnter2D(Collider2D collider)
+    IEnumerator NextLevel()  //pass this function the name of which scene to load and it will transition us to it.
+    {
+        yield return new WaitForSeconds(1.5f); //delay load start so can read sign
+        loader.LoadNextLevel();
+    }
+
+
+//Invocation: Called when another collider w/ a RigidBody2D enters base object's collider
+//Use: Determine if Player is entering sign's reading range (i.e. collider)
+private void OnTriggerEnter2D(Collider2D collider)
     {
         if (collider.CompareTag("Player"))
         {

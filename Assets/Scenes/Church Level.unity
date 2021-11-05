@@ -7307,7 +7307,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7835821, y: 1}
+    m_SensorSize: {x: 1.5810056, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -106029,28 +106029,28 @@ PrefabInstance:
     - target: {fileID: 3618504895270118752, guid: 288fb8ae89c28974aa894d07c3ef054f,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3618504895270118752, guid: 288fb8ae89c28974aa894d07c3ef054f,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3618504895270118752, guid: 288fb8ae89c28974aa894d07c3ef054f,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3618504895659214486, guid: 288fb8ae89c28974aa894d07c3ef054f,
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: fbb2d608fba7f3444a18a3a346422708,
+      objectReference: {fileID: 21300000, guid: 74435ae055985d24d8127e09347208f4,
         type: 3}
     - target: {fileID: 3618504895659214487, guid: 288fb8ae89c28974aa894d07c3ef054f,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.283847
+      value: -6.58
       objectReference: {fileID: 0}
     - target: {fileID: 3618504895659214487, guid: 288fb8ae89c28974aa894d07c3ef054f,
         type: 3}
@@ -106105,17 +106105,17 @@ PrefabInstance:
     - target: {fileID: 3618504895659214487, guid: 288fb8ae89c28974aa894d07c3ef054f,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 3.8
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3618504895659214487, guid: 288fb8ae89c28974aa894d07c3ef054f,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 3.8
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3618504895659214487, guid: 288fb8ae89c28974aa894d07c3ef054f,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 3.8
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3618504895659214504, guid: 288fb8ae89c28974aa894d07c3ef054f,
         type: 3}
@@ -106130,42 +106130,43 @@ PrefabInstance:
     - target: {fileID: 3618504895659214504, guid: 288fb8ae89c28974aa894d07c3ef054f,
         type: 3}
       propertyPath: dialogueActual
-      value: Good Luck! I know you can do it!
+      value: That sword looks like it could stop anything! Maybe even dark magic thrown
+        at you... Good Luck, I know you can do it!
       objectReference: {fileID: 0}
     - target: {fileID: 3618504895659214505, guid: 288fb8ae89c28974aa894d07c3ef054f,
         type: 3}
       propertyPath: m_Offset.x
-      value: 0.0030521527
+      value: 0.63571525
       objectReference: {fileID: 0}
     - target: {fileID: 3618504895659214505, guid: 288fb8ae89c28974aa894d07c3ef054f,
         type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 0.34
+      value: 1.36
       objectReference: {fileID: 0}
     - target: {fileID: 3618504895659214505, guid: 288fb8ae89c28974aa894d07c3ef054f,
         type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 0.42
+      value: 1.68
       objectReference: {fileID: 0}
     - target: {fileID: 3618504895659214505, guid: 288fb8ae89c28974aa894d07c3ef054f,
         type: 3}
       propertyPath: m_Size.x
-      value: 0.22901063
+      value: 2.1314244
       objectReference: {fileID: 0}
     - target: {fileID: 3618504895659214505, guid: 288fb8ae89c28974aa894d07c3ef054f,
         type: 3}
       propertyPath: m_Offset.y
-      value: -0.000000007450581
+      value: -0.12830234
       objectReference: {fileID: 0}
     - target: {fileID: 3618504895659214505, guid: 288fb8ae89c28974aa894d07c3ef054f,
         type: 3}
       propertyPath: m_Size.y
-      value: 0.44976687
+      value: 1.3788519
       objectReference: {fileID: 0}
     - target: {fileID: 3618504895659214507, guid: 288fb8ae89c28974aa894d07c3ef054f,
         type: 3}
       propertyPath: m_Name
-      value: Sign (3)
+      value: Old guy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 288fb8ae89c28974aa894d07c3ef054f, type: 3}
@@ -108900,7 +108901,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1710569174}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.5707588, y: -0.052369952, z: -10}
+  m_LocalPosition: {x: -0.44210958, y: -0.05138004, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -108975,6 +108976,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e4f4571148c65c4f8f31f1153eded9f, type: 3}
+--- !u!1 &1738179713 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3618504895659214507, guid: 288fb8ae89c28974aa894d07c3ef054f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1388032613}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1738179714
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1738179713}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: acbc7d7f28c3d844c8a8b3e7ccbdc58f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1743934475
 GameObject:
   m_ObjectHideFlags: 0
