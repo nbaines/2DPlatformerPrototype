@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private PlayerStats stats;
     [SerializeField] private new Rigidbody2D rigidbody; //these are assigned in inspector
 
+
     public LayerMask groundLayer;   //used in the isgrounded function
     public AudioSource audioS;      //plays the audio
     public AudioClip[] audioFiles;
@@ -120,7 +121,7 @@ public class PlayerController : MonoBehaviour
         {
             if (audioS.isPlaying)
                 audioS.Stop();
-            if (isGrounded())
+            if (isGrounded() && !PauseMenu.isPaused)
             {
                 rigidbody.AddForce(stats.JumpHeight, ForceMode2D.Impulse);
 

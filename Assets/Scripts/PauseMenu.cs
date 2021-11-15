@@ -29,6 +29,7 @@ public class PauseMenu : MonoBehaviour
     //Use: Resumes the game
     public void gameResume()
     {
+        Debug.Log("Unpausing");
         pauseMenuInterface.SetActive(false); //disable pause menu & child elements
         Time.timeScale = 1f; //standard timescale
         isPaused = false;

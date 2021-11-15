@@ -9,6 +9,7 @@ TagManager:
   - Enemy
   - Persistance
   - LevelEnder
+  - UI
   layers:
   - Default
   - TransparentFX
